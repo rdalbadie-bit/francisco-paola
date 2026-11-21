@@ -733,8 +733,8 @@ html.js .reveal.in { opacity: 1; transform: none; }
     whatsappTexto: '+56 9 0000 0000',
     respondeA: 'Paola',
     foto: 'foto.jpg',
-    musica: '',        // p. ej. 'musica.mp3'; vacío usa una caja musical generada
-    musicaInicio: 0,   // segundo desde el que parte el MP3
+    musica: 'musica.mp3', // «Perfect» (Ed Sheeran), ya recortada desde el segundo 19 y con entrada suave; vacío usa una caja musical generada
+    musicaInicio: 0,      // segundo desde el que parte el MP3 (0 porque el archivo ya viene recortado)
     transporte: false, // true muestra la sección de bus y la pregunta en la confirmación
     // Cada invitado tiene su propio link: .../#familia-perez
     invitados: {
@@ -1173,15 +1173,17 @@ html.js .reveal.in { opacity: 1; transform: none; }
   })();
   const Track = (() => {
     let audio = null, on = false;
+    // Se crea al cargar la página para que el navegador vaya descargando la canción antes de tocar el sello
+    if (CONFIG.musica) {
+      audio = new Audio();
+      audio.preload = 'auto';
+      audio.loop = true;
+      audio.volume = .75;
+      audio.src = CONFIG.musica + (CONFIG.musicaInicio ? '#t=' + CONFIG.musicaInicio : '');
+    }
     return {
       start() {
         try { if (navigator.audioSession) navigator.audioSession.type = 'playback'; } catch (e) { /* sin soporte */ }
-        if (!audio) {
-          audio = new Audio(CONFIG.musica);
-          audio.loop = true;
-          audio.volume = .7;
-          if (CONFIG.musicaInicio) audio.currentTime = CONFIG.musicaInicio;
-        }
         on = true;
         const p = audio.play();
         if (p && p.catch) p.catch(() => {});
