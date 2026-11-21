@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Francisco &amp; Paola</title>
 <meta name="description" content="Te invitamos a nuestro matrimonio. Sábado 6 de marzo de 2027 · Fundo Las Pataguas, El Tabo.">
-<meta name="theme-color" content="#ECE5EA">
+<meta name="theme-color" content="#F2EADF">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="es_CL">
@@ -20,33 +20,32 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@400;500&family=Pinyon+Script&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Jost:wght@400;500&family=Pinyon+Script&display=swap">
 <script>document.documentElement.classList.add('js', 'intro-on');</script>
 <style>
-/* Concepto: nácar y papel con relieve, estilo chic. Un sobre lacrado abre una tarjeta atada con cinta de satén;
-   tarjetas de papel con marcos de rosas en relieve alternan con fondos de nácar y fotos, y un cierre azul marino para confirmar. */
+/* Concepto: azul francés y oro sobre papel crema. Una tarjeta azul de dos puertas, con follaje dorado y sello de lacre,
+   se abre hacia una secuencia de papeles de borde rasgado: portada con foto en arco, calendario, programa, lugar,
+   vestimenta, regalos, una carta para confirmar y un cierre con foto. Flores de azahar como detalle. */
 :root {
-  --paper: #F1EAED;
-  --env: #EADFE4;
-  --ink: #574450;
-  --ink-soft: #76616B;
-  --accent: #96788A;
-  --line: rgba(87, 68, 80, .2);
-  --line-strong: rgba(87, 68, 80, .42);
-  --navy: #1F2A48;
-  --on-navy: #EFE9F0;
-  --on-navy-soft: #B7BDD2;
-  --nacre: #ECE5EA;
-  --shadow: rgba(72, 46, 60, .34);
+  --cream: #F2EADF;
+  --paper: #F9F4EB;
+  --ink: #3A4361;
+  --ink-soft: #686D84;
+  --blue: #4D6DB5;
+  --blue-deep: #3A5799;
+  --blue-soft: #9BB0DC;
+  --gold: #C3A15F;
+  --gold-deep: #9E7D3D;
+  --line: rgba(58, 67, 97, .16);
+  --shadow: rgba(60, 48, 36, .2);
 
   --font-script: "Pinyon Script", "Snell Roundhand", "Segoe Script", cursive;
   --font-serif: "Cormorant Garamond", "EB Garamond", Garamond, "Times New Roman", serif;
   --font-label: "Jost", "Futura", "Avenir Next", "Segoe UI", system-ui, sans-serif;
 
-  --satin-stops: #CDB9C2 0%, #E6D9DF 10%, #F4ECF0 34%, #EADFE4 52%, #F6F0F2 68%, #E0D2D8 88%, #C9B4BE 100%;
-
-  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .34 0 0 0 0 .26 0 0 0 0 .31 0 0 0 .08 0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23g)'/%3E%3C/svg%3E");
-  --streaks: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='600'%3E%3Cfilter id='s'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.003 .02' numOctaves='3' seed='11' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1.2 0 0 0 -.5'/%3E%3C/filter%3E%3Crect width='600' height='600' filter='url(%23s)'/%3E%3C/svg%3E");
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .36 0 0 0 0 .3 0 0 0 0 .24 0 0 0 .08 0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23g)'/%3E%3C/svg%3E");
+  --grain-light: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .13 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23g)'/%3E%3C/svg%3E");
+  --weave: repeating-linear-gradient(0deg, rgba(255, 255, 255, .25) 0 1px, rgba(255, 255, 255, 0) 1px 3px), repeating-linear-gradient(90deg, rgba(110, 92, 70, .06) 0 1px, rgba(110, 92, 70, 0) 1px 3px);
   color-scheme: light;
 }
 
@@ -56,7 +55,7 @@ html { -webkit-text-size-adjust: 100%; }
 html.locked, html.locked body { overflow: hidden; }
 body {
   margin: 0;
-  background-color: var(--nacre);
+  background-color: var(--cream);
   color: var(--ink);
   font-family: var(--font-serif);
   font-size: 1.22rem;
@@ -66,100 +65,76 @@ body {
 }
 p { margin: 0; }
 h1, h2, h3 { margin: 0; font-weight: 400; text-wrap: balance; }
+figure { margin: 0; }
 .fx-defs { position: absolute; width: 0; height: 0; overflow: hidden; }
 
-/* ---------- Nácar de fondo ---------- */
-.nacre {
+/* papel de algodón de fondo */
+.linen {
   position: fixed;
   inset: 0;
   z-index: -1;
-  overflow: hidden;
   pointer-events: none;
-  background-color: var(--nacre);
+  background-color: var(--cream);
   background-image:
-    var(--streaks),
-    radial-gradient(70% 42% at 16% 10%, rgba(210, 232, 228, .95), transparent 70%),
-    radial-gradient(60% 48% at 90% 28%, rgba(219, 205, 238, .95), transparent 70%),
-    radial-gradient(70% 44% at 26% 60%, rgba(247, 228, 218, .9), transparent 70%),
-    radial-gradient(60% 46% at 84% 80%, rgba(222, 212, 242, .9), transparent 70%),
-    radial-gradient(60% 40% at 12% 96%, rgba(212, 230, 238, .9), transparent 70%);
-  background-size: 600px 600px, auto, auto, auto, auto, auto;
+    var(--weave),
+    var(--grain),
+    radial-gradient(80% 50% at 20% 0%, rgba(255, 252, 245, .9), transparent 70%),
+    radial-gradient(70% 50% at 100% 100%, rgba(226, 214, 196, .5), transparent 70%);
 }
-.sheen {
-  position: absolute;
-  inset: -40% -90%;
-  background: linear-gradient(104deg, transparent 40%, rgba(255, 255, 255, .5) 46.5%, rgba(222, 244, 240, .36) 49.5%, rgba(238, 220, 250, .42) 52.5%, transparent 60%);
-  animation: sheen 12s ease-in-out infinite alternate;
-  will-change: transform;
-}
-@keyframes sheen { from { transform: translate3d(-20%, 0, 0); } to { transform: translate3d(20%, 0, 0); } }
 
-/* ---------- Relieve (SVG generado) ---------- */
-svg.relief { position: absolute; inset: 0; z-index: 0; display: block; width: 100%; height: 100%; pointer-events: none; }
-.relief .v, .relief .st, .relief .fr { fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; }
-
-/* ---------- Sobre de entrada ---------- */
-.intro { position: fixed; inset: 0; z-index: 60; overflow: hidden; }
-.intro.gone { visibility: hidden; pointer-events: none; }
-.env {
-  position: relative;
-  width: min(100%, 520px);
-  height: 100%;
-  margin: 0 auto;
-  perspective: 1500px;
-  cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
-}
-.env-back {
-  position: absolute;
+/* ---------- Apertura: tarjeta azul de dos puertas ---------- */
+.intro {
+  position: fixed;
   inset: 0;
-  background-color: #D9CBD3;
-  background-image: var(--streaks), linear-gradient(180deg, #D3C3CC, #E2D6DC 60%, #D6C8D0);
-  background-size: 600px 600px, auto;
-  transition: opacity .9s ease;
-}
-.env-front {
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-  filter: drop-shadow(0 -2px 3px rgba(72, 46, 60, .16));
-  transition: transform 1.15s cubic-bezier(.6, 0, .3, 1);
-  will-change: transform;
-}
-.flap {
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 3;
-  width: 100%;
-  height: 60%;
-  transform-origin: 50% 0;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  filter: drop-shadow(0 4px 5px rgba(72, 46, 60, .26));
-  transition: transform .95s cubic-bezier(.45, .05, .3, 1);
-  will-change: transform;
-}
-.addressee {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 21%;
-  z-index: 1;
+  z-index: 60;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-inline: 18%;
-  text-align: center;
+  justify-content: center;
+  gap: 18px;
+  overflow: hidden;
+  padding: max(24px, env(safe-area-inset-top, 0px)) 16px max(24px, env(safe-area-inset-bottom, 0px));
+  background-color: var(--cream);
+  background-image: var(--weave), var(--grain), radial-gradient(90% 60% at 30% 10%, #FFFDF8, transparent 70%);
+  transition: opacity .9s ease;
 }
-.to { font-family: var(--font-script); font-size: clamp(2rem, 9vw, 2.6rem); line-height: 1.2; color: var(--ink); }
+.intro.gone { opacity: 0; visibility: hidden; pointer-events: none; transition: opacity .9s ease, visibility 0s .9s; }
+.intro-az { position: absolute; left: -18px; top: -16px; width: min(44vw, 200px); height: auto; }
+.intro-top { position: relative; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.intro-top .to { font-family: var(--font-script); font-size: clamp(2.3rem, 10vw, 2.9rem); line-height: 1.15; color: var(--blue); padding: 0 .2em; }
+.gate {
+  position: relative;
+  width: min(74vw, 320px);
+  aspect-ratio: 1 / 1.42;
+  perspective: 1600px;
+  cursor: pointer;
+  filter: drop-shadow(0 18px 22px rgba(40, 52, 90, .28)) drop-shadow(0 2px 3px rgba(40, 52, 90, .2));
+  -webkit-tap-highlight-color: transparent;
+}
+.gate-inner { position: absolute; inset: 0; background-color: var(--paper); background-image: var(--grain), radial-gradient(60% 50% at 50% 50%, #FFF8E4, transparent 80%); }
+.door {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  background-color: #4E6FB6;
+  background-image: var(--grain-light), linear-gradient(160deg, rgba(255, 255, 255, .1), rgba(0, 0, 0, .1));
+  transition: transform 1.25s cubic-bezier(.5, 0, .2, 1), opacity .45s ease .85s;
+  will-change: transform;
+}
+.door svg { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.door-l { left: 0; transform-origin: 0 50%; box-shadow: inset -6px 0 10px -8px rgba(0, 0, 0, .4); }
+.door-r { right: 0; transform-origin: 100% 50%; box-shadow: inset 6px 0 10px -8px rgba(0, 0, 0, .4); }
+.door-r svg { transform: scaleX(-1); }
+.gate.open .door-l { transform: rotateY(-118deg); opacity: 0; }
+.gate.open .door-r { transform: rotateY(118deg); opacity: 0; }
 .seal {
   position: absolute;
   left: 50%;
-  top: 56%;
-  z-index: 4;
-  width: 126px;
-  height: 126px;
+  top: 50%;
+  z-index: 5;
+  width: 88px;
+  height: 88px;
   padding: 0;
   border: 0;
   border-radius: 50%;
@@ -168,391 +143,296 @@ svg.relief { position: absolute; inset: 0; z-index: 0; display: block; width: 10
   cursor: pointer;
   transition: transform .45s cubic-bezier(.3, 0, .2, 1), opacity .45s;
 }
-.seal svg { display: block; width: 100%; height: 100%; overflow: visible; filter: drop-shadow(0 5px 6px rgba(60, 36, 48, .38)); }
+.seal svg { display: block; width: 100%; height: 100%; overflow: visible; filter: drop-shadow(0 4px 5px rgba(50, 36, 10, .4)); }
 .seal::after {
   content: "";
   position: absolute;
-  inset: 4px;
+  inset: 2px;
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, .9);
+  border: 1px solid rgba(255, 244, 214, .95);
   opacity: 0;
   animation: halo 2.6s ease-out infinite;
   pointer-events: none;
 }
-@keyframes halo { 0% { transform: scale(.92); opacity: .9; } 100% { transform: scale(1.45); opacity: 0; } }
+@keyframes halo { 0% { transform: scale(.95); opacity: .9; } 100% { transform: scale(1.55); opacity: 0; } }
 .seal:focus-visible { outline: 2px solid var(--ink); outline-offset: 6px; }
-.intro-hint {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: calc(56% + 78px);
-  z-index: 4;
-  text-align: center;
-  transition: opacity .4s;
-}
-.intro-proto {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: calc(12px + env(safe-area-inset-bottom, 0px));
-  z-index: 5;
-  text-align: center;
-  font-family: var(--font-label);
-  font-size: .68rem;
-  letter-spacing: .08em;
-  color: var(--ink-soft);
-  transition: opacity .4s;
-}
-.env.opening .seal { transform: translate(-50%, -50%) scale(1.18); opacity: 0; pointer-events: none; }
-.env.opening .seal::after { animation: none; }
-.env.opening .intro-hint, .intro.parting .intro-proto { opacity: 0; }
-.env.flap-open .flap { transform: rotateX(176deg); }
-.intro.parting .env-back { opacity: 0; }
-.intro.parting .env-front { transform: translateY(104%); }
+.gate.open .seal { transform: translate(-50%, -50%) scale(1.2); opacity: 0; pointer-events: none; }
+.gate.open .seal::after { animation: none; }
+.intro-hint { position: relative; transition: opacity .4s; }
+.intro.opening .intro-hint, .intro.opening .intro-proto { opacity: 0; }
+.intro-proto { position: absolute; left: 0; right: 0; bottom: calc(10px + env(safe-area-inset-bottom, 0px)); text-align: center; font-family: var(--font-label); font-size: .68rem; letter-spacing: .08em; color: var(--ink-soft); transition: opacity .4s; }
 
 /* ---------- Página ---------- */
-.page {
-  position: relative;
-  max-width: 520px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  padding-bottom: calc(96px + env(safe-area-inset-bottom, 0px));
-}
-.stack { display: flex; flex-direction: column; gap: 14px; }
-.panel { position: relative; isolation: isolate; overflow: hidden; }
-.paper, .card { background-color: var(--paper); box-shadow: 0 16px 34px -22px var(--shadow), 0 1px 3px rgba(72, 46, 60, .1); }
-.paper::after, .card::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  pointer-events: none;
-  background-image: var(--grain), radial-gradient(130% 90% at 50% 38%, transparent 55%, rgba(120, 88, 104, .1));
-  mix-blend-mode: multiply;
-}
-.panel-in {
-  position: relative;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 14px;
-  padding: 72px 40px;
-  text-align: center;
-}
-.card { position: relative; isolation: isolate; overflow: hidden; width: calc(100% - 36px); max-width: 440px; margin: 0 auto; border-radius: 2px; }
-
+.page { position: relative; max-width: 520px; margin: 0 auto; padding-bottom: env(safe-area-inset-bottom, 0px); }
+.section { position: relative; display: flex; flex-direction: column; align-items: center; gap: 14px; padding: 72px 24px; text-align: center; }
 .label {
   font-family: var(--font-label);
-  font-size: .7rem;
+  font-size: .68rem;
   font-weight: 500;
-  letter-spacing: .26em;
+  letter-spacing: .3em;
   text-transform: uppercase;
   color: var(--ink-soft);
 }
 .h2 {
-  padding: .04em .2em .1em;
-  font-family: var(--font-script);
-  font-size: clamp(2.7rem, 12.5vw, 3.4rem);
-  line-height: 1.05;
-  color: var(--ink);
-}
-.lead-i { max-width: 24ch; font-style: italic; font-size: 1.32rem; line-height: 1.35; }
-.soft { color: var(--ink-soft); }
-.small { font-size: 1.05rem; line-height: 1.5; }
-.pearl-div { display: flex; justify-content: center; }
-.pearl-div svg, svg.pearls { display: block; overflow: visible; filter: drop-shadow(0 1px 1.2px rgba(72, 46, 60, .35)); }
-
-/* invitación principal */
-.hero { min-height: 100vh; min-height: 100svh; display: flex; align-items: center; justify-content: center; transition: transform 1.4s cubic-bezier(.2, .75, .2, 1); }
-.hero-in { padding: 128px 44px 112px; gap: 14px; }
-.greet { font-style: italic; font-size: 1.3rem; color: var(--ink-soft); }
-.names {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 4px 0 2px;
+  font-family: var(--font-serif);
+  font-size: clamp(2.3rem, 10.5vw, 2.85rem);
+  font-weight: 600;
+  line-height: 1.04;
+  color: var(--blue);
+}
+.h2 em { font-style: italic; font-weight: 500; }
+.small { font-size: 1.08rem; line-height: 1.5; }
+.soft { color: var(--ink-soft); }
+.lead-i { max-width: 26ch; font-style: italic; font-size: 1.28rem; line-height: 1.4; }
+
+/* papel de borde rasgado (el recorte lo calcula el script) */
+.sheet { position: relative; width: 100%; filter: drop-shadow(0 12px 16px rgba(60, 48, 36, .16)) drop-shadow(0 1px 2px rgba(60, 48, 36, .14)); }
+.sheet > .deckle { position: relative; background-color: var(--paper); background-image: var(--grain); }
+.frame-line::before, .frame-line::after { content: ""; position: absolute; pointer-events: none; border: 1px solid rgba(195, 161, 95, .55); }
+.frame-line::before { inset: 14px; }
+.frame-line::after { inset: 18px; border-color: rgba(195, 161, 95, .3); }
+
+/* azahar */
+svg.azahar { display: block; overflow: visible; filter: drop-shadow(0 3px 3px rgba(40, 50, 30, .22)); }
+
+/* portada */
+.hero { min-height: 100vh; min-height: 100svh; justify-content: center; padding: 40px 18px 28px; }
+.hero-sheet { max-width: 420px; transition: opacity 1s ease, transform 1.2s cubic-bezier(.2, .75, .2, 1); }
+.card-hero { display: flex; flex-direction: column; align-items: center; gap: 14px; padding: 58px 30px 42px; }
+.hero-az { position: absolute; left: -30px; top: -40px; width: 150px; height: auto; z-index: 3; }
+.greet { font-style: italic; font-size: 1.25rem; color: var(--ink-soft); }
+.arch {
+  position: relative;
+  width: min(68%, 236px);
+  aspect-ratio: 3 / 4;
+  border-radius: 999px 999px 6px 6px;
+  overflow: hidden;
+  background: #E7DED0;
+  outline: 1px solid var(--gold);
+  outline-offset: 6px;
+  margin: 8px 0 6px;
+}
+.arch img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 35%; display: block; }
+.names {
   font-family: var(--font-script);
-  font-size: clamp(3.5rem, 16.5vw, 5rem);
-  line-height: 1.02;
-  color: var(--ink);
+  font-size: clamp(2.7rem, 12.5vw, 3.4rem);
+  line-height: 1.1;
+  color: var(--blue);
+  padding: 0 .2em;
+  text-wrap: balance;
 }
-.names .n { display: inline-block; padding: .08em .3em .14em; }
-.names .amp { font-family: var(--font-serif); font-style: italic; font-size: .52em; line-height: 1.1; color: var(--accent); }
-.lead { max-width: 21ch; font-style: italic; font-size: 1.32rem; line-height: 1.35; }
-.date { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 14px; width: 100%; max-width: 290px; margin-top: 8px; }
-.date-side {
-  min-width: 0;
-  padding-block: 7px;
-  border-block: 1px solid var(--line-strong);
-  font-family: var(--font-label);
-  font-size: .7rem;
-  font-weight: 500;
-  letter-spacing: .22em;
-  text-transform: uppercase;
-}
-.date-day { font-size: 3.6rem; font-weight: 500; line-height: 1; font-variant-numeric: lining-nums; }
-.date-year { font-family: var(--font-label); font-size: .8rem; letter-spacing: .24em; color: var(--ink-soft); font-variant-numeric: lining-nums; }
-.cue { display: flex; flex-direction: column; align-items: center; gap: 2px; margin-top: 14px; color: var(--ink-soft); }
+.names .amp { font-family: var(--font-serif); font-style: italic; font-size: .6em; color: var(--gold-deep); }
+.hero-date { font-family: var(--font-serif); font-size: 1.3rem; letter-spacing: .08em; color: var(--ink); font-variant-numeric: lining-nums; }
+.hero-date b { font-weight: 500; color: var(--gold-deep); padding: 0 .35em; }
+.cue { display: flex; flex-direction: column; align-items: center; gap: 2px; margin-top: 18px; color: var(--ink-soft); }
 .cue svg { width: 18px; height: 18px; animation: bob 2.2s ease-in-out infinite; }
 @keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(5px); } }
+html.intro-on .hero-sheet { opacity: 0; transform: translateY(18px) scale(.97); }
+.hero.revealed .hero-sheet { opacity: 1; transform: none; }
 
-/* brillo perlado sobre los nombres */
-@keyframes shimmer { from { background-position: 100% 0; } to { background-position: 0 0; } }
-.hero.revealed .names .n {
-  background-image: linear-gradient(100deg, var(--ink) 0 38%, #C6AEBC 46%, #FFFFFF 50%, #C6AEBC 54%, var(--ink) 62% 100%);
-  background-size: 300% 100%;
-  background-position: 0 0;
+/* aviso de vista previa */
+.proto { padding: 0 22px; font-family: var(--font-label); font-size: .78rem; line-height: 1.7; color: var(--ink-soft); text-align: center; text-wrap: balance; }
+.proto-tag { display: inline-block; margin-right: 6px; padding: 1px 8px; border-radius: 999px; background: var(--blue); color: #fff; font-size: .62rem; font-weight: 500; letter-spacing: .16em; text-transform: uppercase; }
+.proto a { color: var(--blue-deep); text-underline-offset: 3px; white-space: nowrap; }
+
+/* guarda la fecha */
+.big-date { display: flex; flex-direction: column; align-items: center; line-height: 1; margin: 4px 0 6px; }
+.big-num {
+  font-family: var(--font-serif);
+  font-size: clamp(7rem, 34vw, 9rem);
+  font-weight: 600;
+  line-height: .9;
+  background: linear-gradient(180deg, #EBD7A2 0%, #C9A55C 52%, #9C7A39 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: shimmer 2.6s ease-in-out 1s both;
+  filter: drop-shadow(0 2px 1px rgba(110, 84, 30, .25));
 }
-
-/* cinta de satén */
-.ribbon { position: absolute; inset: 0; z-index: 6; display: none; pointer-events: none; --by: 50%; --bw: 42px; }
-html.intro-on .ribbon { display: block; }
-.rb { position: absolute; opacity: .96; box-shadow: 0 2px 5px rgba(72, 46, 60, .18), inset 0 0 0 1px rgba(255, 255, 255, .35); transition: transform 1s cubic-bezier(.55, 0, .35, 1) .25s; }
-.rb-l, .rb-r { top: calc(var(--by) - var(--bw) / 2); height: var(--bw); background: linear-gradient(180deg, var(--satin-stops)); }
-.rb-l { left: 0; right: 50%; }
-.rb-r { left: 50%; right: 0; }
-.rb-t, .rb-b { left: calc(50% - var(--bw) / 2); width: var(--bw); background: linear-gradient(90deg, var(--satin-stops)); }
-.rb-t { top: 0; height: var(--by); }
-.rb-b { top: var(--by); bottom: 0; }
-.bow {
-  position: absolute;
-  left: 50%;
-  top: var(--by);
-  width: min(76%, 320px);
-  height: auto;
-  overflow: visible;
-  transform: translate(-50%, -40%);
-  filter: drop-shadow(0 6px 7px rgba(72, 46, 60, .3));
-  transition: transform .85s cubic-bezier(.5, 0, .6, 1), opacity .7s;
+.big-month { margin-top: -.15em; font-family: var(--font-script); font-size: clamp(2.6rem, 12vw, 3.2rem); line-height: 1.2; color: var(--blue); padding: 0 .2em; }
+.big-year { font-family: var(--font-label); font-size: .78rem; letter-spacing: .4em; color: var(--ink-soft); }
+.cal-sheet { max-width: 330px; margin: 14px 0 8px; }
+.cal { display: grid; gap: 10px; padding: 34px 26px 28px; }
+.cal-head { display: flex; align-items: baseline; justify-content: space-between; padding: 0 4px; }
+.cal-month { font-family: var(--font-script); font-size: 2.2rem; line-height: 1; color: var(--blue); }
+.cal-year { font-size: 1.1rem; color: var(--ink); font-variant-numeric: lining-nums; }
+.cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); row-gap: 6px; }
+.cal-grid .wd { font-family: var(--font-label); font-size: .6rem; letter-spacing: .1em; color: var(--ink-soft); padding-bottom: 4px; }
+.cal-grid .d { display: flex; align-items: center; justify-content: center; height: 34px; font-size: 1.08rem; font-variant-numeric: lining-nums tabular-nums; }
+.cal-grid .mark {
+  position: relative;
+  width: 36px;
+  margin: 0 auto;
+  border-radius: 50%;
+  color: #4A3410;
+  font-weight: 600;
+  background: radial-gradient(circle at 36% 30%, #F4E2AE, #D2AE63 52%, #A8853F 100%);
+  box-shadow: 0 2px 3px rgba(90, 64, 20, .35), inset 0 0 0 2px rgba(255, 240, 200, .5), inset 0 0 0 4px rgba(150, 115, 50, .35);
 }
-.bow .tails { transition: transform .7s cubic-bezier(.5, 0, .7, .4), opacity .6s; }
-.hero.untie .bow { transform: translate(-50%, -28%) scale(.3) rotate(-14deg); opacity: 0; }
-.hero.untie .bow .tails { transform: translateY(40px); opacity: 0; }
-.hero.untie .rb-l { transform: translateX(-104%); }
-.hero.untie .rb-r { transform: translateX(104%); }
-.hero.untie .rb-t { transform: translateY(-104%); }
-.hero.untie .rb-b { transform: translateY(104%); }
-html.intro-on .hero:not(.risen) { transform: translateY(7%) scale(.92); }
-html.intro-on .hero-in > * { opacity: 0; }
-@keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
-.hero.revealed .hero-in > * { animation: rise .9s cubic-bezier(.2, .7, .2, 1) both; animation-delay: calc(var(--i, 0) * 90ms + 80ms); }
-
-/* aviso de vista previa */
-.proto { padding: 4px 22px; font-family: var(--font-label); font-size: .78rem; line-height: 1.7; color: var(--ink-soft); text-align: center; text-wrap: balance; }
-.proto-tag { display: inline-block; margin-right: 6px; padding: 1px 8px; border-radius: 2px; background: var(--ink); color: var(--paper); font-size: .62rem; font-weight: 500; letter-spacing: .18em; text-transform: uppercase; }
-.proto a { color: var(--ink); text-underline-offset: 3px; white-space: nowrap; }
-
-.nacre-panel .panel-in { padding: 46px 22px; }
-.card .panel-in { padding: 78px 34px 80px; }
-
-/* secciones con foto de fondo (fotos libres de Unsplash, licencia Unsplash):
-   faroles = photo-1660243353143-f77ba06d4913 · ceremonia = photo-1770757588246-f1988bdd9b49
-   pampas = photo-1780337092896-87be336f877d · velas = photo-1613068431228-8cb6a1e92573 */
-.photo { background-color: var(--nacre); background-size: cover; background-position: center; }
-.photo::before { content: ""; position: absolute; inset: 0; z-index: 0; pointer-events: none; }
-.photo-light::before { background: linear-gradient(180deg, rgba(240, 233, 238, .72), rgba(240, 233, 238, .86)); }
-.photo-dark { color: var(--on-navy); }
-.photo-dark::before { background: linear-gradient(180deg, rgba(34, 28, 40, .4), rgba(34, 28, 40, .62)); }
-.photo .panel-in { padding: 64px 22px; }
-.photo-dark .panel-in { text-shadow: 0 1px 10px rgba(16, 12, 20, .45); }
-.photo-dark .label { color: #ECE4EC; }
-.photo-dark .h2, .photo-dark .venue-name { color: #FBF8FA; }
-.photo-dark .venue-addr { color: #ECE4EC; }
-.photo-dark .venue .time { color: #EBDCE6; }
-.photo-dark .btn { border-color: rgba(251, 248, 250, .85); background: rgba(251, 248, 250, .1); color: #FBF8FA; text-shadow: none; }
-.photo-dark .btn:hover { background: #FBF8FA; color: var(--ink); }
-.bg-faroles { background-image: url("img/fondo-faroles.jpg"); }
-.bg-ceremonia { background-image: url("img/fondo-ceremonia.jpg"); background-position: 50% 60%; }
-.bg-pampas { background-image: url("img/fondo-pampas.jpg"); }
-
-/* cuenta regresiva y foto */
-.oval { position: relative; width: 224px; height: 296px; margin-bottom: 10px; }
-.oval svg.pearls { position: absolute; inset: 0; width: 100%; height: 100%; }
-.oval-in {
-  position: absolute;
-  inset: 13px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  clip-path: ellipse(50% 50% at 50% 50%);
-  background-color: var(--paper);
-  background-image: var(--grain), radial-gradient(90% 70% at 40% 30%, #FBF7F9, #E7DCE2 80%);
-}
-.oval-in img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 35%; }
-.oval-mono { font-family: var(--font-script); font-size: 4rem; line-height: 1; padding: .1em .2em; }
-.oval-mono span { font-family: var(--font-serif); font-style: italic; font-size: .42em; color: var(--accent); margin: 0 .1em; }
-.oval-note { max-width: 14ch; font-family: var(--font-label); font-size: .58rem; letter-spacing: .2em; text-transform: uppercase; color: var(--ink-soft); }
-.count-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; width: 100%; max-width: 360px; }
+.cal-foot { font-style: italic; font-size: 1.12rem; color: var(--ink); }
+.count-lead { font-style: italic; font-size: 1.15rem; color: var(--ink-soft); margin-top: 8px; }
+.count-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; width: 100%; max-width: 340px; }
 .tag {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2px;
   padding: 12px 2px 10px;
-  border-radius: 3px;
-  background-color: var(--paper);
-  background-image: var(--grain);
-  box-shadow: 0 10px 20px -14px var(--shadow), inset 0 0 0 1px rgba(255, 255, 255, .7);
+  border-radius: 10px;
+  background: #FFFDF9;
+  box-shadow: 0 8px 18px -12px rgba(58, 67, 97, .45), 0 0 0 1px rgba(77, 109, 181, .12);
 }
-.tag span { font-size: clamp(1.7rem, 8vw, 2.2rem); line-height: 1.05; font-weight: 500; font-variant-numeric: lining-nums tabular-nums; }
-.tag small { font-family: var(--font-label); font-size: .6rem; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-soft); }
-.count-done { font-style: italic; font-size: 1.5rem; }
-.cal { display: grid; justify-items: center; gap: 10px; width: 100%; max-width: 360px; margin-top: 8px; }
+.tag span { font-size: clamp(1.7rem, 8vw, 2.1rem); line-height: 1.05; font-weight: 600; color: var(--ink); font-variant-numeric: lining-nums tabular-nums; }
+.tag small { font-family: var(--font-label); font-size: .58rem; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-soft); }
+.count-done { font-style: italic; font-size: 1.5rem; color: var(--blue); }
 
 /* botones */
+.btn-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; width: 100%; margin-top: 6px; }
 .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 8px;
   min-height: 46px;
-  padding: 12px 16px;
-  border: 1px solid var(--ink);
-  border-radius: 2px;
-  background: rgba(255, 255, 255, .28);
-  color: var(--ink);
+  padding: 10px 22px;
+  border: 1px solid var(--blue);
+  border-radius: 999px;
+  background: var(--blue);
+  color: #FFFFFF;
   font-family: var(--font-label);
   font-size: .72rem;
   font-weight: 500;
-  letter-spacing: .15em;
+  letter-spacing: .14em;
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
-  transition: background-color .2s, color .2s, border-color .2s;
+  box-shadow: 0 8px 16px -8px rgba(58, 87, 153, .7);
+  transition: background-color .2s, color .2s, transform .2s;
   -webkit-tap-highlight-color: transparent;
 }
-.btn:hover { background: var(--ink); color: var(--paper); }
-.btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
-.btn svg { width: 18px; height: 18px; flex: none; }
-.btn-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; width: 100%; }
-.btn-row .btn { flex: 1 1 120px; max-width: 200px; }
-
-/* lugar */
-.photo .venues-in { min-height: 560px; justify-content: center; padding: 96px 32px; gap: 12px; }
-.venue { display: flex; flex-direction: column; align-items: center; gap: 6px; width: 100%; }
-.venue .time { font-family: var(--font-label); font-size: .8rem; letter-spacing: .22em; color: var(--accent); font-variant-numeric: lining-nums; }
-.venue-name { font-size: 1.6rem; line-height: 1.2; }
-.venue-addr { color: var(--ink-soft); font-size: 1.1rem; }
-.venue .btn-row { margin-top: 10px; }
+.btn:hover { background: var(--blue-deep); border-color: var(--blue-deep); }
+.btn:active { transform: translateY(1px); }
+.btn:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+.btn svg { width: 17px; height: 17px; flex: none; }
+.btn-ghost { background: transparent; color: var(--blue); box-shadow: none; }
+.btn-ghost:hover { background: var(--blue); color: #fff; }
+.btn-row .btn { flex: 1 1 130px; max-width: 200px; padding-inline: 14px; letter-spacing: .1em; }
+.btn-wide { width: 100%; }
 
 /* programa */
-.prog-in { padding: 96px 21% 84px; }
-.timeline { display: grid; justify-items: center; margin: 10px 0 0; padding: 0; list-style: none; }
-.timeline li { position: relative; display: grid; justify-items: center; gap: 1px; }
-.timeline li + li { padding-top: 50px; }
-.timeline li + li::before { content: ""; position: absolute; top: 6px; left: 50%; width: 1px; height: 24px; background: var(--line-strong); }
-.timeline li + li::after {
+.timeline { position: relative; display: grid; gap: 22px; margin: 18px 0 0; padding: 0 0 0 30px; list-style: none; text-align: left; }
+.timeline::before { content: ""; position: absolute; left: 7px; top: .7em; bottom: .7em; width: 1px; background: linear-gradient(var(--blue-soft), rgba(155, 176, 220, .3)); }
+.timeline li { position: relative; }
+.timeline li::before {
   content: "";
   position: absolute;
-  top: 34px;
-  left: calc(50% - 4.5px);
-  width: 9px;
-  height: 9px;
+  left: -30px;
+  top: .5em;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
-  background: radial-gradient(circle at 36% 32%, #fff, #EFE5EB 40%, #CDBCC9 85%, #B5A3B3);
-  box-shadow: 0 1px 2px rgba(72, 46, 60, .35);
+  background: var(--paper);
+  border: 1px solid var(--blue);
+  box-shadow: inset 0 0 0 3px var(--paper), inset 0 0 0 8px var(--blue);
 }
-.timeline time { font-family: var(--font-label); font-size: .82rem; letter-spacing: .2em; color: var(--accent); font-variant-numeric: lining-nums tabular-nums; }
-.t-name { font-size: 1.36rem; line-height: 1.25; }
-.t-place { font-family: var(--font-label); font-size: .72rem; letter-spacing: .06em; color: var(--ink-soft); }
+.t-name { font-style: italic; font-size: 1.6rem; line-height: 1.2; color: var(--blue); }
+
+/* lugar */
+.photo-card { width: min(100%, 330px); margin: 14px 0 6px; padding: 9px 9px 9px; background: #FFFDF9; box-shadow: 0 14px 24px -14px rgba(50, 40, 30, .45), 0 0 0 1px rgba(60, 48, 36, .06); transform: rotate(-1.4deg); }
+.photo-card img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 60%; }
+.venue-addr { font-size: 1.15rem; color: var(--ink-soft); }
+.venue-time { font-family: var(--font-label); font-size: .78rem; letter-spacing: .24em; color: var(--gold-deep); }
+
+/* vestimenta */
+.attire { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; width: 100%; max-width: 330px; margin: 10px 0 4px; }
+.attire figure { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.attire svg { width: 100%; max-width: 140px; height: auto; filter: drop-shadow(0 8px 8px rgba(40, 50, 80, .16)); }
+.attire figcaption { font-family: var(--font-script); font-size: 1.9rem; line-height: 1.1; color: var(--blue); }
 
 /* regalos */
-.gifts-in { padding: 104px 40px 100px; }
+.gift-svg { width: min(62%, 220px); height: auto; margin: 10px 0 4px; filter: drop-shadow(0 12px 12px rgba(50, 40, 30, .18)); }
 
-/* confirmación (azul marino) */
-.navy {
-  background-color: var(--navy);
-  background-image: linear-gradient(180deg, rgba(31, 42, 72, .9), rgba(31, 42, 72, .94)), url("img/fondo-velas.jpg");
-  background-size: cover;
-  background-position: center;
-  color: var(--on-navy);
-  box-shadow: 0 16px 34px -22px rgba(20, 26, 46, .6);
-}
-.navy::after { content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none; background-image: var(--grain); opacity: .5; mix-blend-mode: screen; }
-.navy .label { color: var(--on-navy-soft); }
-.navy .h2 { color: var(--on-navy); }
-.rsvp-in { padding: 92px 30px 92px; }
-.rsvp-in > p { max-width: 30ch; }
-.rsvp strong { font-weight: 600; }
-.seats { font-style: italic; color: #D9C9E0; }
-.rsvp form { display: grid; gap: 24px; width: 100%; max-width: 380px; margin-top: 10px; text-align: left; }
+/* confirmación como carta */
+.letter-sheet { max-width: 420px; margin-top: 10px; }
+.letter { padding: 38px 26px 30px; text-align: left; }
+.letter-to { font-family: var(--font-script); font-size: 2rem; line-height: 1.2; color: var(--blue); margin-bottom: 14px; }
+.seats { font-style: italic; color: var(--blue-deep); }
+.rsvp form { display: grid; gap: 20px; }
 .field { display: grid; gap: 8px; min-width: 0; margin: 0; padding: 0; border: 0; }
-.field > label, .field > legend { padding: 0; font-family: var(--font-label); font-size: .7rem; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--on-navy-soft); }
-.field > legend { margin-bottom: 10px; }
+.field > label, .field > legend { padding: 0; font-family: var(--font-label); font-size: .66rem; font-weight: 500; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-soft); }
+.field > legend { margin-bottom: 8px; }
 .optional { margin-left: 4px; font-family: var(--font-serif); font-size: .95rem; font-style: italic; font-weight: 400; letter-spacing: 0; text-transform: none; }
 .rsvp input[type="text"], .rsvp select, .rsvp textarea {
   width: 100%;
-  padding: 6px 2px 8px;
-  border: 0;
-  border-bottom: 1px solid rgba(239, 233, 240, .45);
-  border-radius: 0;
-  background-color: transparent;
-  color: var(--on-navy);
+  padding: 10px 12px;
+  border: 1px solid rgba(58, 67, 97, .2);
+  border-radius: 8px;
+  background-color: #FFFDF9;
+  color: var(--ink);
   font: inherit;
-  font-size: 1.2rem;
+  font-size: 1.12rem;
 }
-.rsvp input[type="text"]:focus, .rsvp select:focus { outline: none; border-bottom-color: var(--on-navy); box-shadow: 0 1px 0 var(--on-navy); }
+.rsvp input[type="text"]:focus, .rsvp select:focus, .rsvp textarea:focus { outline: none; border-color: var(--blue); box-shadow: 0 0 0 3px rgba(77, 109, 181, .18); }
 .rsvp select {
   -webkit-appearance: none;
   appearance: none;
-  padding-right: 28px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23EFE9F0' stroke-width='1.4'/%3E%3C/svg%3E");
+  padding-right: 34px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%234D6DB5' stroke-width='1.5'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
-  background-position: right 4px center;
+  background-position: right 12px center;
   cursor: pointer;
 }
-.rsvp select option { color: var(--navy); }
-.rsvp textarea {
-  min-height: 6rem;
-  padding: 0 2px;
-  border-bottom: 0;
-  line-height: 2rem;
-  resize: vertical;
-  background-image: repeating-linear-gradient(to bottom, transparent 0, transparent calc(2rem - 1px), rgba(239, 233, 240, .45) calc(2rem - 1px), rgba(239, 233, 240, .45) 2rem);
-  background-attachment: local;
-}
-.rsvp textarea:focus { outline: none; }
-.rsvp ::placeholder { color: var(--on-navy-soft); font-style: italic; opacity: .7; }
-.rsvp input[aria-invalid="true"] { border-bottom-color: #F3B9C6; box-shadow: 0 1px 0 #F3B9C6; }
+.rsvp textarea { min-height: 5.5rem; resize: vertical; line-height: 1.4; }
+.rsvp ::placeholder { color: var(--ink-soft); font-style: italic; opacity: .6; }
+.rsvp input[aria-invalid="true"] { border-color: #C0566A; box-shadow: 0 0 0 3px rgba(192, 86, 106, .15); }
 .choice { display: flex; flex-wrap: wrap; gap: 10px; }
-.opt { position: relative; flex: 1 1 140px; }
+.opt { position: relative; flex: 1 1 130px; }
 .opt input { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: pointer; }
 .opt span {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 48px;
-  padding: 10px 12px;
-  border: 1px solid rgba(239, 233, 240, .45);
-  border-radius: 2px;
-  font-size: 1.12rem;
+  padding: 8px 10px;
+  border: 1px solid rgba(58, 67, 97, .22);
+  border-radius: 10px;
+  background: #FFFDF9;
+  font-size: 1.08rem;
   text-align: center;
   transition: background-color .2s, color .2s, border-color .2s;
 }
-.opt input:checked + span { border-color: var(--paper); background: var(--paper); color: var(--navy); }
-.opt input:focus-visible + span { outline: 2px solid var(--paper); outline-offset: 3px; }
-.form-error { font-style: italic; color: #F3B9C6; }
-.hint { font-size: 1rem; line-height: 1.5; color: var(--on-navy-soft); }
-.sel { color: var(--on-navy); white-space: nowrap; -webkit-user-select: all; user-select: all; font-variant-numeric: lining-nums; }
-.btn-pearl { border-color: var(--paper); background: var(--paper); color: var(--navy); width: 100%; }
-.btn-pearl:hover { background: #FFFFFF; color: var(--navy); }
-.btn-pearl:focus-visible { outline-color: var(--paper); }
+.opt input:checked + span { border-color: var(--blue); background: var(--blue); color: #fff; }
+.opt input:focus-visible + span { outline: 2px solid var(--gold); outline-offset: 3px; }
+.form-error { font-style: italic; color: #B0475B; }
+.hint { font-size: .98rem; line-height: 1.5; color: var(--ink-soft); }
+.sel { color: var(--ink); white-space: nowrap; -webkit-user-select: all; user-select: all; font-variant-numeric: lining-nums; }
 
-/* pie */
-.foot { display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 30px 20px 10px; text-align: center; }
-.foot-seal { width: 104px; height: 104px; }
-.foot-seal svg { display: block; width: 100%; height: 100%; overflow: visible; filter: drop-shadow(0 4px 5px rgba(60, 36, 48, .32)); }
-.foot-names { font-family: var(--font-script); font-size: 2.6rem; line-height: 1.1; padding: 0 .2em; }
-.foot-date { font-family: var(--font-label); font-size: .82rem; letter-spacing: .3em; color: var(--ink-soft); font-variant-numeric: lining-nums; }
+/* cierre con foto */
+.closing {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  min-height: 600px;
+  padding: 80px 24px 110px;
+  overflow: hidden;
+  text-align: center;
+  color: #FFFDF8;
+  background-color: #2E2A2A;
+  background-image: linear-gradient(180deg, rgba(20, 22, 38, .05) 30%, rgba(20, 22, 38, .72) 85%), url("img/fondo-faroles.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.closing-line { font-style: italic; font-size: 1.45rem; line-height: 1.3; text-shadow: 0 1px 10px rgba(0, 0, 0, .4); }
+.closing-script { font-family: var(--font-script); font-size: clamp(3.2rem, 15vw, 4rem); line-height: 1.1; padding: 0 .2em; text-shadow: 0 2px 12px rgba(0, 0, 0, .35); }
+.closing-names { font-family: var(--font-label); font-size: .76rem; letter-spacing: .3em; text-transform: uppercase; }
+.closing .label { color: rgba(255, 253, 248, .8); }
+.closing-seal { width: 70px; height: 70px; margin-bottom: 4px; }
+.closing-seal svg { width: 100%; height: 100%; overflow: visible; filter: drop-shadow(0 4px 5px rgba(0, 0, 0, .35)); }
 
 /* botón de música */
 .music {
@@ -566,26 +446,23 @@ html.intro-on .hero-in > * { opacity: 0; }
   width: 48px;
   height: 48px;
   padding: 0;
-  border: 1px solid rgba(255, 255, 255, .9);
+  border: 0;
   border-radius: 50%;
-  background: radial-gradient(circle at 36% 30%, #FFFFFF, #F1E8ED 45%, #D5C6D1);
-  color: var(--ink);
-  box-shadow: 0 6px 16px -6px var(--shadow);
+  background: var(--blue);
+  color: #fff;
+  box-shadow: 0 8px 18px -6px rgba(40, 60, 110, .6);
   cursor: pointer;
 }
 .music svg { width: 20px; height: 20px; }
 .music .ic-off { display: none; }
 .music[aria-pressed="false"] .ic-on { display: none; }
 .music[aria-pressed="false"] .ic-off { display: block; }
-.music:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+.music:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
 
 /* aparición al hacer scroll */
 html.js .reveal { opacity: 0; transform: translateY(18px); transition: opacity .9s ease, transform .9s cubic-bezier(.2, .7, .2, 1); }
 html.js .reveal.in { opacity: 1; transform: none; }
 
-@media (min-width: 560px) {
-  .page { padding-top: 14px; }
-}
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: .01ms !important;
@@ -600,253 +477,233 @@ html.js .reveal.in { opacity: 1; transform: none; }
 </head>
 <body>
 
-<!-- Filtros de relieve: la opacidad de cada forma es su altura; la luz viene de arriba a la izquierda. -->
+<!-- Definiciones compartidas: degradados (oro, hojas, pétalos) y el relieve del sello -->
 <svg class="fx-defs" aria-hidden="true" focusable="false">
   <defs>
-    <filter id="fx-paper" color-interpolation-filters="sRGB">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="1.1" result="h"/>
-      <feDiffuseLighting in="h" data-ss="2.2" surfaceScale="2.2" diffuseConstant="1.30541" lighting-color="#F1EAED" result="d"><feDistantLight azimuth="225" elevation="50"/></feDiffuseLighting>
-      <feComponentTransfer in="SourceAlpha" result="m"><feFuncA type="linear" slope="40" intercept="0"/></feComponentTransfer>
-      <feComposite in="d" in2="m" operator="in"/>
-    </filter>
-    <filter id="fx-soft" color-interpolation-filters="sRGB">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="3.2" result="h"/>
-      <feDiffuseLighting in="h" data-ss="3.4" surfaceScale="3.4" diffuseConstant="1.30541" lighting-color="#F1EAED" result="d"><feDistantLight azimuth="225" elevation="50"/></feDiffuseLighting>
-      <feComponentTransfer in="SourceAlpha" result="m"><feFuncA type="linear" slope="40" intercept="0"/></feComponentTransfer>
-      <feComposite in="d" in2="m" operator="in"/>
-    </filter>
-    <filter id="fx-env" color-interpolation-filters="sRGB">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5" result="h"/>
-      <feDiffuseLighting in="h" data-ss="2.4" surfaceScale="2.4" diffuseConstant="1.30541" lighting-color="#EADFE4" result="d"><feDistantLight azimuth="225" elevation="50"/></feDiffuseLighting>
-      <feComponentTransfer in="SourceAlpha" result="m"><feFuncA type="linear" slope="40" intercept="0"/></feComponentTransfer>
-      <feComposite in="d" in2="m" operator="in"/>
-    </filter>
-    <filter id="fx-navy" color-interpolation-filters="sRGB">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="1.1" result="h"/>
-      <feDiffuseLighting in="h" data-ss="2.6" surfaceScale="2.6" diffuseConstant="1.30541" lighting-color="#1F2A48" result="d"><feDistantLight azimuth="225" elevation="50"/></feDiffuseLighting>
-      <feComponentTransfer in="SourceAlpha" result="m"><feFuncA type="linear" slope="40" intercept="0"/></feComponentTransfer>
-      <feComposite in="d" in2="m" operator="in"/>
-    </filter>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F3E2AE"/><stop offset=".42" stop-color="#C9A455"/><stop offset=".7" stop-color="#E9D08E"/><stop offset="1" stop-color="#A98540"/></linearGradient>
+    <linearGradient id="gold-soft" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F6E8BF"/><stop offset="1" stop-color="#CDAA62"/></linearGradient>
+    <linearGradient id="leaf-g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6E9A58"/><stop offset=".55" stop-color="#3F6B3B"/><stop offset="1" stop-color="#2A4E2C"/></linearGradient>
+    <radialGradient id="petal-g" cx=".3" cy=".35" r=".9"><stop offset="0" stop-color="#FFFFFF"/><stop offset=".6" stop-color="#F6F3EC"/><stop offset="1" stop-color="#DED7C8"/></radialGradient>
+    <linearGradient id="navy-g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#40528A"/><stop offset="1" stop-color="#25325A"/></linearGradient>
+    <linearGradient id="dress-g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C3D2F0"/><stop offset=".5" stop-color="#94AEE2"/><stop offset="1" stop-color="#6F8FCF"/></linearGradient>
+    <linearGradient id="ribbon-g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6E8ED3"/><stop offset=".35" stop-color="#A9BFEA"/><stop offset=".6" stop-color="#5D7FC6"/><stop offset="1" stop-color="#8FA9E0"/></linearGradient>
     <filter id="fx-seal" color-interpolation-filters="sRGB" x="-5%" y="-5%" width="110%" height="110%">
       <feGaussianBlur in="SourceAlpha" stdDeviation="1.3" result="h"/>
-      <feDiffuseLighting in="h" data-ss="3" surfaceScale="3" diffuseConstant="1.27" lighting-color="#A48C99" result="d"><feDistantLight azimuth="225" elevation="52"/></feDiffuseLighting>
-      <feSpecularLighting in="h" data-ss="3" surfaceScale="3" specularConstant=".85" specularExponent="20" lighting-color="#FFFFFF" result="s"><feDistantLight azimuth="225" elevation="52"/></feSpecularLighting>
+      <feDiffuseLighting in="h" data-ss="3" surfaceScale="3" diffuseConstant="1.27" lighting-color="#C9A45C" result="d"><feDistantLight azimuth="225" elevation="52"/></feDiffuseLighting>
+      <feSpecularLighting in="h" data-ss="3" surfaceScale="3" specularConstant=".8" specularExponent="22" lighting-color="#FFF3D6" result="s"><feDistantLight azimuth="225" elevation="52"/></feSpecularLighting>
       <feComposite in="d" in2="s" operator="arithmetic" k1="0" k2="1" k3="1" k4="0" result="ds"/>
       <feComponentTransfer in="SourceAlpha" result="m"><feFuncA type="linear" slope="40" intercept="0"/></feComponentTransfer>
       <feComposite in="ds" in2="m" operator="in"/>
     </filter>
-    <radialGradient id="pearl0" cx=".42" cy=".38" r=".7" fx=".34" fy=".3"><stop offset="0" stop-color="#FFFFFF"/><stop offset=".3" stop-color="#F7EFF3"/><stop offset=".66" stop-color="#E3D4DE"/><stop offset=".9" stop-color="#C6B3C1"/><stop offset="1" stop-color="#AF9BAB"/></radialGradient>
-    <radialGradient id="pearl1" cx=".42" cy=".38" r=".7" fx=".34" fy=".3"><stop offset="0" stop-color="#FFFFFF"/><stop offset=".3" stop-color="#F2F1F7"/><stop offset=".66" stop-color="#D9DAEA"/><stop offset=".9" stop-color="#BDB6CB"/><stop offset="1" stop-color="#A79FB5"/></radialGradient>
-    <radialGradient id="pearl2" cx=".42" cy=".38" r=".7" fx=".34" fy=".3"><stop offset="0" stop-color="#FFFFFF"/><stop offset=".3" stop-color="#F1F5F2"/><stop offset=".66" stop-color="#DBE5E0"/><stop offset=".9" stop-color="#BDB9BF"/><stop offset="1" stop-color="#A9A1AA"/></radialGradient>
   </defs>
 </svg>
 
-<div class="nacre" aria-hidden="true"><div class="sheen"></div></div>
+<div class="linen" aria-hidden="true"></div>
 
 <div class="intro" id="intro">
-  <div class="env" id="env">
-    <div class="env-back"></div>
-    <div class="env-front" data-relief="envFront">
-      <div class="addressee">
-        <span class="label" id="env-label" hidden>Para</span>
-        <span class="to" id="env-to">Para ti</span>
-      </div>
-    </div>
-    <div class="flap" data-relief="envFlap"></div>
-    <button type="button" class="seal" id="seal" aria-label="Abrir la invitación" data-seal></button>
-    <p class="intro-hint label">Toca el sello para abrir</p>
+  <svg class="azahar intro-az" data-azahar="1.25" aria-hidden="true" focusable="false"></svg>
+  <div class="intro-top">
+    <p class="label" id="env-label">Una invitación</p>
+    <p class="to" id="env-to">para ti</p>
   </div>
+  <div class="gate" id="gate">
+    <div class="gate-inner deckle" data-deckle="trbl"></div>
+    <div class="door door-l deckle" data-deckle="tbl" data-foil></div>
+    <div class="door door-r deckle" data-deckle="trb" data-foil></div>
+    <button type="button" class="seal" id="seal" aria-label="Abrir la invitación" data-seal></button>
+  </div>
+  <p class="intro-hint label">Toca el sello para abrir</p>
   <p class="intro-proto">Vista previa · datos de ejemplo</p>
 </div>
 
 <div class="page" id="page">
-  <main class="stack">
+  <main>
 
-    <section class="panel paper hero" id="hero" data-relief="hero" aria-labelledby="names">
-      <div class="panel-in hero-in">
-        <p class="greet" id="greet" hidden></p>
-        <p class="label">Junto a sus familias</p>
-        <h1 class="names" id="names"><span class="n">Francisco</span><span class="amp">&amp;</span><span class="n">Paola</span></h1>
-        <p class="lead" data-s="tienen el agrado de invitarte a celebrar su matrimonio" data-p="tienen el agrado de invitarlos a celebrar su matrimonio">tienen el agrado de invitarte a celebrar su matrimonio</p>
-        <div class="date" role="img" aria-label="Sábado 6 de marzo">
-          <span class="date-side">Sábado</span>
-          <span class="date-day">6</span>
-          <span class="date-side">Marzo</span>
-        </div>
-        <p class="date-year">2027 · 17:00 HRS</p>
-        <div class="cue" aria-hidden="true">
-          <span class="label">Desliza</span>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+    <section class="section hero" id="hero" aria-labelledby="names">
+      <div class="sheet hero-sheet">
+        <svg class="azahar hero-az" data-azahar=".66" aria-hidden="true" focusable="false"></svg>
+        <div class="deckle frame-line card-hero">
+          <p class="greet" id="greet" hidden></p>
+          <p class="label">Nos casamos</p>
+          <div class="arch" id="arch"><img id="arch-img" alt="Francisco y Paola" src="foto.jpg"></div>
+          <h1 class="names" id="names">Francisco <span class="amp">&amp;</span> Paola</h1>
+          <p class="hero-date">6<b>·</b>marzo<b>·</b>2027</p>
         </div>
       </div>
-      <div class="ribbon" aria-hidden="true">
-        <span class="rb rb-t"></span><span class="rb rb-b"></span>
-        <span class="rb rb-l"></span><span class="rb rb-r"></span>
-        <svg class="bow" viewBox="0 0 300 230" focusable="false">
-          <defs>
-            <linearGradient id="sat-a" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C2A8B4"/><stop offset=".3" stop-color="#F8F1F4"/><stop offset=".5" stop-color="#DCCAD2"/><stop offset=".7" stop-color="#FDF9FA"/><stop offset="1" stop-color="#BBA1AD"/></linearGradient>
-            <linearGradient id="sat-b" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2A8B4"/><stop offset=".3" stop-color="#F8F1F4"/><stop offset=".5" stop-color="#DCCAD2"/><stop offset=".7" stop-color="#FDF9FA"/><stop offset="1" stop-color="#BBA1AD"/></linearGradient>
-            <linearGradient id="sat-in" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#A58A97"/><stop offset="1" stop-color="#CDB7C1"/></linearGradient>
-            <linearGradient id="sat-t" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D6C3CC"/><stop offset=".45" stop-color="#F7EFF2"/><stop offset="1" stop-color="#C0A6B2"/></linearGradient>
-            <linearGradient id="sat-k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F7EFF2"/><stop offset=".55" stop-color="#D7C3CC"/><stop offset="1" stop-color="#B69CA8"/></linearGradient>
-          </defs>
-          <g class="tails">
-            <path fill="url(#sat-t)" d="M142,100 C128,132 104,172 78,216 L100,208 L110,226 C126,184 144,146 156,106 Z"/>
-            <path fill="url(#sat-t)" d="M158,100 C172,132 196,172 222,216 L200,208 L190,226 C174,184 156,146 144,106 Z"/>
-          </g>
-          <path fill="url(#sat-a)" d="M146,84 C120,44 72,16 38,28 C8,39 6,86 30,108 C54,130 106,118 146,102 Z"/>
-          <path fill="url(#sat-in)" opacity=".75" d="M146,90 C118,72 82,58 58,64 C46,68 46,82 58,90 C80,102 116,100 146,98 Z"/>
-          <path fill="none" stroke="#FFFFFF" stroke-opacity=".7" stroke-width="2.4" stroke-linecap="round" d="M138,84 C112,56 76,36 46,40"/>
-          <path fill="url(#sat-b)" d="M154,84 C180,44 228,16 262,28 C292,39 294,86 270,108 C246,130 194,118 154,102 Z"/>
-          <path fill="url(#sat-in)" opacity=".75" d="M154,90 C182,72 218,58 242,64 C254,68 254,82 242,90 C220,102 184,100 154,98 Z"/>
-          <path fill="none" stroke="#FFFFFF" stroke-opacity=".7" stroke-width="2.4" stroke-linecap="round" d="M162,84 C188,56 224,36 254,40"/>
-          <path fill="url(#sat-k)" d="M134,80 C140,72 160,72 166,80 C172,90 172,102 166,110 C160,116 140,116 134,110 C128,102 128,90 134,80 Z"/>
-          <path fill="none" stroke="#9E8390" stroke-opacity=".35" stroke-width="1.2" d="M142,78 C146,92 146,102 142,114 M158,78 C154,92 154,102 158,114"/>
-        </svg>
+      <div class="cue" aria-hidden="true">
+        <span class="label">Desliza</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
       </div>
     </section>
 
     <p class="proto"><span class="proto-tag">Vista previa</span> La fecha está por confirmar. Hora, teléfono y link de la lista de novios son de ejemplo. <a href="#familia-perez" id="proto-link">Ver como “Familia Pérez”</a></p>
 
-    <section class="panel photo photo-light bg-faroles" aria-label="Cuenta regresiva">
-      <div class="panel-in reveal">
-        <div class="oval" id="oval">
-          <div class="oval-in" id="oval-in">
-            <p class="oval-mono" aria-hidden="true">F<span>&amp;</span>P</p>
-            <p class="oval-note">Aquí irá una foto de los novios</p>
-          </div>
-        </div>
-        <p class="label" id="cd-label">Faltan</p>
-        <div class="count-grid" id="cd-grid">
-          <div class="tag"><span id="cd-d">0</span><small>días</small></div>
-          <div class="tag"><span id="cd-h">00</span><small>horas</small></div>
-          <div class="tag"><span id="cd-m">00</span><small>min</small></div>
-          <div class="tag"><span id="cd-s">00</span><small>seg</small></div>
-        </div>
-        <p class="count-done" id="cd-done" hidden>¡Hoy es el gran día!</p>
-        <div class="cal">
-          <p class="label">Agrégalo a tu calendario</p>
-          <div class="btn-row">
-            <a class="btn" id="cal-link" href="https://calendar.google.com/" target="_blank" rel="noopener">Google</a>
-            <a class="btn" href="francisco-paola.ics" type="text/calendar">iPhone</a>
-          </div>
-        </div>
+    <section class="section reveal" aria-labelledby="h-fecha">
+      <p class="label">Guarda la fecha</p>
+      <div class="big-date" aria-hidden="true">
+        <span class="big-num" id="big-num">6</span>
+        <span class="big-month" id="big-month">Marzo</span>
+        <span class="big-year" id="big-year">2027</span>
+      </div>
+      <h2 class="h2" id="h-fecha"><span>Un día para</span><em>celebrar juntos</em></h2>
+      <div class="sheet cal-sheet">
+        <div class="deckle frame-line cal" id="calendar" role="img" aria-label="Calendario: sábado 6 de marzo de 2027"></div>
+      </div>
+      <p class="count-lead" id="cd-label">Faltan</p>
+      <div class="count-grid" id="cd-grid">
+        <div class="tag"><span id="cd-d">0</span><small>días</small></div>
+        <div class="tag"><span id="cd-h">00</span><small>horas</small></div>
+        <div class="tag"><span id="cd-m">00</span><small>min</small></div>
+        <div class="tag"><span id="cd-s">00</span><small>seg</small></div>
+      </div>
+      <p class="count-done" id="cd-done" hidden>¡Hoy es el gran día!</p>
+      <div class="btn-row">
+        <a class="btn" id="cal-link" href="https://calendar.google.com/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true" focusable="false"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>Google</a>
+        <a class="btn" href="francisco-paola.ics" type="text/calendar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true" focusable="false"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>iPhone</a>
       </div>
     </section>
 
-    <section class="panel photo photo-dark bg-ceremonia" aria-labelledby="h-lugar">
-      <div class="panel-in venues-in reveal">
-        <article class="venue">
-          <p class="label">Ceremonia y celebración</p>
-          <h2 class="h2" id="h-lugar">Dónde</h2>
-          <p class="time">17:00 HRS</p>
-          <h3 class="venue-name">Fundo Las Pataguas</h3>
-          <p class="venue-addr">S/N, El Tabo</p>
-          <div class="btn-row">
-            <a class="btn" id="maps" href="https://www.google.com/maps" target="_blank" rel="noopener">Google Maps</a>
-            <a class="btn" id="waze" href="https://waze.com/" target="_blank" rel="noopener">Waze</a>
-          </div>
-        </article>
+    <section class="section reveal" aria-labelledby="h-programa">
+      <p class="label">El orden del día</p>
+      <h2 class="h2" id="h-programa"><span>Así será</span><em>nuestro día</em></h2>
+      <ol class="timeline">
+        <li><p class="t-name">Ceremonia</p></li>
+        <li><p class="t-name">Brindis</p></li>
+        <li><p class="t-name">Cóctel</p></li>
+        <li><p class="t-name">Comida buffet</p></li>
+        <li><p class="t-name">¡Fiesta!</p></li>
+      </ol>
+    </section>
+
+    <section class="section reveal" aria-labelledby="h-lugar">
+      <p class="label">Ceremonia y celebración</p>
+      <h2 class="h2" id="h-lugar"><span>Fundo</span><em>Las Pataguas</em></h2>
+      <figure class="photo-card"><img src="img/fondo-ceremonia.jpg" alt="Ceremonia al aire libre sobre el pasto" loading="lazy"></figure>
+      <p class="venue-time">17:00 HRS</p>
+      <p class="venue-addr">S/N, El Tabo</p>
+      <div class="btn-row">
+        <a class="btn" id="maps" href="https://www.google.com/maps" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Google Maps</a>
+        <a class="btn btn-ghost" id="waze" href="https://waze.com/" target="_blank" rel="noopener">Waze</a>
       </div>
     </section>
 
-    <section class="panel paper" data-relief="programa" aria-labelledby="h-programa">
-      <div class="panel-in prog-in reveal">
-        <p class="label">Programa</p>
-        <h2 class="h2" id="h-programa">El gran día</h2>
-        <ol class="timeline">
-          <li><p class="t-name">Ceremonia</p></li>
-          <li><p class="t-name">Brindis</p></li>
-          <li><p class="t-name">Cóctel</p></li>
-          <li><p class="t-name">Comida buffet</p></li>
-          <li><p class="t-name">¡Fiesta!</p></li>
-        </ol>
+    <section class="section reveal" aria-labelledby="h-vestimenta">
+      <p class="label">Código de vestimenta</p>
+      <h2 class="h2" id="h-vestimenta"><span>Formal</span><em>relajado</em></h2>
+      <div class="attire">
+        <figure>
+          <svg viewBox="0 0 120 180" aria-hidden="true" focusable="false">
+            <path d="M60,22 V14 a6,6 0 1 1 6,-6" fill="none" stroke="#9A8F7E" stroke-width="2" stroke-linecap="round"/>
+            <path d="M18,44 L60,22 L102,44" fill="none" stroke="#9A8F7E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M22,44 L46,30 L60,64 L74,30 L98,44 L104,158 L71,164 L60,104 L49,164 L16,158 Z" fill="url(#navy-g)"/>
+            <path d="M49,32 L60,64 L71,32 L66,30 L60,40 L54,30 Z" fill="#F7F3EA"/>
+            <path d="M46,30 L56,86 L60,64 Z" fill="#4C5F98"/>
+            <path d="M74,30 L64,86 L60,64 Z" fill="#4C5F98"/>
+            <path d="M54,40 L60,44 L66,40 L66,47 L60,44 L54,47 Z" fill="#1F2948"/>
+            <circle cx="60" cy="98" r="2" fill="#B9C3E0"/><circle cx="60" cy="112" r="2" fill="#B9C3E0"/>
+            <path d="M80,74 l12,-2" stroke="#F7F3EA" stroke-width="2.4" stroke-linecap="round"/>
+          </svg>
+          <figcaption>Ellos</figcaption>
+        </figure>
+        <figure>
+          <svg viewBox="0 0 120 180" aria-hidden="true" focusable="false">
+            <path d="M60,22 V14 a6,6 0 1 1 6,-6" fill="none" stroke="#9A8F7E" stroke-width="2" stroke-linecap="round"/>
+            <path d="M18,44 L60,22 L102,44" fill="none" stroke="#9A8F7E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M44,36 L48,62 M76,36 L72,62" stroke="#94AEE2" stroke-width="2.2" stroke-linecap="round"/>
+            <path d="M46,60 Q60,68 74,60 L77,88 Q60,93 43,88 Z" fill="url(#dress-g)"/>
+            <path d="M43,88 Q60,93 77,88 C86,112 96,140 104,170 Q60,180 16,170 C24,140 34,112 43,88 Z" fill="url(#dress-g)"/>
+            <path d="M52,94 C48,120 42,146 36,170 M62,95 C62,122 62,148 62,174 M72,94 C78,120 84,146 90,170" fill="none" stroke="#FFFFFF" stroke-opacity=".35" stroke-width="1.4"/>
+            <path d="M44,88 Q60,94 76,88" fill="none" stroke="#6F8FCF" stroke-width="2.2"/>
+          </svg>
+          <figcaption>Ellas</figcaption>
+        </figure>
       </div>
+      <p class="small soft" data-s="Es en el campo: puedes venir con zapatillas." data-p="Es en el campo: pueden venir con zapatillas.">Es en el campo: puedes venir con zapatillas.</p>
     </section>
 
-    <section class="panel photo photo-light bg-pampas" aria-labelledby="h-vestimenta">
-      <div class="panel-in reveal">
-        <p class="label">Código de vestimenta</p>
-        <h2 class="h2" id="h-vestimenta">Formal relajado</h2>
-        <p class="small soft" data-s="Es en el campo: puedes venir con zapatillas." data-p="Es en el campo: pueden venir con zapatillas.">Es en el campo: puedes venir con zapatillas.</p>
-        <div class="pearl-div" data-pearls></div>
-      </div>
+    <section class="section reveal" id="transporte" aria-labelledby="h-transporte">
+      <p class="label">Transporte</p>
+      <h2 class="h2" id="h-transporte"><span>Bus de</span><em>acercamiento</em></h2>
+      <p class="small">Horarios y punto de salida por confirmar.</p>
+      <p class="small soft" data-s="Cuéntanos en tu confirmación si lo usarás." data-p="Cuéntennos en su confirmación si lo usarán.">Cuéntanos en tu confirmación si lo usarás.</p>
     </section>
 
-    <section class="panel nacre-panel" id="transporte" aria-labelledby="h-transporte">
-      <div class="card" data-relief="ticket">
-        <div class="panel-in reveal" style="padding-top:150px">
-          <p class="label">Transporte</p>
-          <h2 class="h2" id="h-transporte">Bus de acercamiento</h2>
-          <p class="small">Horarios y punto de salida por confirmar.</p>
-          <p class="small soft" data-s="Cuéntanos en tu confirmación si lo usarás." data-p="Cuéntennos en su confirmación si lo usarán.">Cuéntanos en tu confirmación si lo usarás.</p>
-        </div>
-      </div>
+    <section class="section reveal" aria-labelledby="h-regalos">
+      <p class="label">Regalos</p>
+      <h2 class="h2" id="h-regalos"><span data-s="Tu presencia es" data-p="Su presencia es">Tu presencia es</span><em>nuestro mejor regalo</em></h2>
+      <svg class="gift-svg" viewBox="0 0 220 160" aria-hidden="true" focusable="false">
+        <rect x="14" y="26" width="192" height="122" rx="4" fill="#FBF6EC" stroke="#E2D7C4"/>
+        <path d="M14,30 L110,96 L206,30" fill="none" stroke="#E2D7C4" stroke-width="1.5"/>
+        <path d="M14,148 L90,84 M206,148 L130,84" fill="none" stroke="#EAE1D1" stroke-width="1.2"/>
+        <rect x="102" y="26" width="16" height="122" fill="url(#ribbon-g)" opacity=".95"/>
+        <rect x="14" y="80" width="192" height="14" fill="url(#ribbon-g)" opacity=".95"/>
+        <path d="M110,87 C92,64 70,58 64,70 C58,84 84,92 110,88 Z" fill="#7C9AD8"/>
+        <path d="M110,87 C128,64 150,58 156,70 C162,84 136,92 110,88 Z" fill="#6A8AD0"/>
+        <path d="M108,90 C100,104 92,118 84,132 L94,128 L98,138 C104,122 110,106 112,92 Z" fill="#5C7CC4"/>
+        <path d="M112,90 C120,104 128,118 136,132 L126,128 L122,138 C116,122 110,106 108,92 Z" fill="#7895D4"/>
+        <ellipse cx="110" cy="88" rx="9" ry="7.5" fill="#4D6DB5"/>
+      </svg>
+      <p class="small soft" data-s="Si además quieres hacernos un regalo, armamos nuestra lista en Mi Lista de Novios." data-p="Si además quieren hacernos un regalo, armamos nuestra lista en Mi Lista de Novios.">Si además quieres hacernos un regalo, armamos nuestra lista en Mi Lista de Novios.</p>
+      <div class="btn-row"><a class="btn" id="gift-link" href="https://milistadenovios.cl/" target="_blank" rel="noopener">Ver lista de novios</a></div>
     </section>
 
-    <section class="panel paper" data-relief="regalos" aria-labelledby="h-regalos">
-      <div class="panel-in gifts-in reveal">
-        <p class="label">Regalos</p>
-        <h2 class="h2" id="h-regalos">Con cariño</h2>
-        <p class="lead-i" data-s="Tu presencia es nuestro mejor regalo." data-p="Su presencia es nuestro mejor regalo.">Tu presencia es nuestro mejor regalo.</p>
-        <p class="small soft" data-s="Si además quieres hacernos un regalo, armamos nuestra lista en Mi Lista de Novios." data-p="Si además quieren hacernos un regalo, armamos nuestra lista en Mi Lista de Novios.">Si además quieres hacernos un regalo, armamos nuestra lista en Mi Lista de Novios.</p>
-        <a class="btn" id="gift-link" href="https://milistadenovios.cl/" target="_blank" rel="noopener">Ver lista de novios</a>
-      </div>
-    </section>
-
-    <section class="panel navy rsvp" id="confirmar" data-relief="rsvp" aria-labelledby="h-rsvp">
-      <div class="panel-in rsvp-in reveal">
-        <p class="label">Asistencia</p>
-        <h2 class="h2" id="h-rsvp" data-s="Confirma tu asistencia" data-p="Confirmen su asistencia">Confirma tu asistencia</h2>
-        <p><span data-s="Por favor, responde antes del" data-p="Por favor, respondan antes del">Por favor, responde antes del</span> <strong>6 de febrero de 2027</strong>.</p>
-        <p class="seats" id="seats" hidden></p>
-        <form id="rsvp-form" novalidate>
-          <div class="field">
-            <label for="rsvp-nombre">Nombre y apellido</label>
-            <input type="text" id="rsvp-nombre" autocomplete="name" placeholder="Ej.: Carmen Rojas">
-          </div>
-          <fieldset class="field">
-            <legend data-s="¿Asistirás?" data-p="¿Asistirán?">¿Asistirás?</legend>
-            <div class="choice">
-              <label class="opt"><input type="radio" name="asiste" value="si" checked><span data-s="Sí, ahí estaré" data-p="Sí, ahí estaremos">Sí, ahí estaré</span></label>
-              <label class="opt"><input type="radio" name="asiste" value="no"><span data-s="No podré asistir" data-p="No podremos asistir">No podré asistir</span></label>
+    <section class="section rsvp reveal" id="confirmar" aria-labelledby="h-rsvp">
+      <p class="label">Confirmación</p>
+      <h2 class="h2" id="h-rsvp"><span data-s="Confirma tu" data-p="Confirmen su">Confirma tu</span><em>asistencia</em></h2>
+      <p class="small"><span data-s="Por favor, responde antes del" data-p="Por favor, respondan antes del">Por favor, responde antes del</span> <strong>6 de febrero de 2027</strong>.</p>
+      <p class="seats" id="seats" hidden></p>
+      <div class="sheet letter-sheet">
+        <div class="deckle frame-line letter">
+          <p class="letter-to">Queridos Francisco y Paola:</p>
+          <form id="rsvp-form" novalidate>
+            <div class="field">
+              <label for="rsvp-nombre">Nombre y apellido</label>
+              <input type="text" id="rsvp-nombre" autocomplete="name" placeholder="Ej.: Carmen Rojas">
             </div>
-          </fieldset>
-          <div class="field" id="field-personas">
-            <label for="rsvp-personas">¿Cuántas personas asistirán?</label>
-            <select id="rsvp-personas"></select>
-          </div>
-          <fieldset class="field" id="field-bus">
-            <legend data-s="¿Usarás el bus?" data-p="¿Usarán el bus?">¿Usarás el bus?</legend>
-            <div class="choice">
-              <label class="opt"><input type="radio" name="bus" value="si"><span>Sí</span></label>
-              <label class="opt"><input type="radio" name="bus" value="no"><span>No</span></label>
+            <fieldset class="field">
+              <legend data-s="¿Nos acompañas?" data-p="¿Nos acompañan?">¿Nos acompañas?</legend>
+              <div class="choice">
+                <label class="opt"><input type="radio" name="asiste" value="si" checked><span data-s="Sí, ahí estaré" data-p="Sí, ahí estaremos">Sí, ahí estaré</span></label>
+                <label class="opt"><input type="radio" name="asiste" value="no"><span data-s="No podré ir" data-p="No podremos ir">No podré ir</span></label>
+              </div>
+            </fieldset>
+            <div class="field" id="field-personas">
+              <label for="rsvp-personas">¿Cuántas personas asistirán?</label>
+              <select id="rsvp-personas"></select>
             </div>
-          </fieldset>
-          <div class="field" id="field-dieta">
-            <label for="rsvp-dieta">Alergias o dieta especial <span class="optional">opcional</span></label>
-            <input type="text" id="rsvp-dieta" placeholder="Ej.: vegetariano, sin gluten">
-          </div>
-          <div class="field">
-            <label for="rsvp-mensaje">Un mensaje para los novios <span class="optional">opcional</span></label>
-            <textarea id="rsvp-mensaje" rows="3"></textarea>
-          </div>
-          <p class="form-error" id="rsvp-error" role="alert" hidden>Escribe tu nombre para que sepamos quién responde.</p>
-          <a class="btn btn-pearl" id="rsvp-send" href="https://wa.me/" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 11.5a8 8 0 0 1-11.6 7.1L4 20l1.4-4.2A8 8 0 1 1 20 11.5z"/></svg>
-            Responder por WhatsApp
-          </a>
-          <p class="hint">Se abrirá WhatsApp con la respuesta ya escrita; solo falta enviarla. Las respuestas llegan a <span id="phone-owner">Paola</span> al <span class="sel" id="phone-text">+56 9 0000 0000</span>.</p>
-        </form>
+            <fieldset class="field" id="field-bus">
+              <legend data-s="¿Usarás el bus?" data-p="¿Usarán el bus?">¿Usarás el bus?</legend>
+              <div class="choice">
+                <label class="opt"><input type="radio" name="bus" value="si"><span>Sí</span></label>
+                <label class="opt"><input type="radio" name="bus" value="no"><span>No</span></label>
+              </div>
+            </fieldset>
+            <div class="field" id="field-dieta">
+              <label for="rsvp-dieta">Alergias o dieta especial <span class="optional">opcional</span></label>
+              <input type="text" id="rsvp-dieta" placeholder="Ej.: vegetariano, sin gluten">
+            </div>
+            <div class="field">
+              <label for="rsvp-mensaje">Unas palabras para los novios <span class="optional">opcional</span></label>
+              <textarea id="rsvp-mensaje" rows="3" placeholder="Les deseamos…"></textarea>
+            </div>
+            <p class="form-error" id="rsvp-error" role="alert" hidden>Escribe tu nombre para que sepamos quién responde.</p>
+            <a class="btn btn-wide" id="rsvp-send" href="https://wa.me/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 11.5a8 8 0 0 1-11.6 7.1L4 20l1.4-4.2A8 8 0 1 1 20 11.5z"/></svg>
+              Responder por WhatsApp
+            </a>
+            <p class="hint">Se abrirá WhatsApp con la respuesta ya escrita; solo falta enviarla. Las respuestas llegan a <span id="phone-owner">Paola</span> al <span class="sel" id="phone-text">+56 9 0000 0000</span>.</p>
+          </form>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer class="foot reveal">
-    <div class="foot-seal" data-seal aria-hidden="true"></div>
-    <p class="foot-names">Francisco &amp; Paola</p>
-    <p class="foot-date">06 · 03 · 2027</p>
-    <p class="label">Comparte tus fotos con #FranciscoYPaola</p>
+  <footer class="closing reveal">
+    <div class="closing-seal" data-seal aria-hidden="true"></div>
+    <p class="closing-line" data-s="Gracias por ser parte de nuestra historia." data-p="Gracias por ser parte de nuestra historia.">Gracias por ser parte de nuestra historia.</p>
+    <p class="closing-script" data-s="Te esperamos" data-p="Los esperamos">Te esperamos</p>
+    <p class="closing-names">Francisco &amp; Paola · 06.03.2027</p>
+    <p class="label">#FranciscoYPaola</p>
   </footer>
 </div>
 
@@ -875,8 +732,9 @@ html.js .reveal.in { opacity: 1; transform: none; }
     whatsapp: '56900000000',
     whatsappTexto: '+56 9 0000 0000',
     respondeA: 'Paola',
-    foto: 'foto.jpg',  // vertical (≈ 3:4); vacío muestra el monograma
+    foto: 'foto.jpg',
     musica: '',        // p. ej. 'musica.mp3'; vacío usa una caja musical generada
+    musicaInicio: 0,   // segundo desde el que parte el MP3
     transporte: false, // true muestra la sección de bus y la pregunta en la confirmación
     // Cada invitado tiene su propio link: .../#familia-perez
     invitados: {
@@ -889,281 +747,124 @@ html.js .reveal.in { opacity: 1; transform: none; }
   const $ = id => document.getElementById(id);
   const root = document.documentElement;
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const intro = $('intro'), env = $('env'), page = $('page'), hero = $('hero'), musicBtn = $('music');
-
-  /* ===== Relieve: cada forma se dibuja con una opacidad que equivale a su altura ===== */
+  const intro = $('intro'), gate = $('gate'), page = $('page'), hero = $('hero'), musicBtn = $('music');
   const f = n => Math.round(n * 10) / 10;
   const pt = (x, y) => f(x) + ',' + f(y);
   const pol = (cx, cy, r, a) => [cx + r * Math.cos(a), cy + r * Math.sin(a)];
   const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
-  let gid = 0;
-  function kit(prefix) {
-    const defs = [];
+  const rng = seed => { let s = seed >>> 0 || 1; return () => (s = (s * 1664525 + 1013904223) >>> 0) / 4294967296; };
+  function quad(p0, p1, p2) {
     return {
-      defs,
-      grad(cx, cy, r, stops) {
-        const id = prefix + 'g' + (++gid);
-        defs.push(`<radialGradient id="${id}" gradientUnits="userSpaceOnUse" cx="${f(cx)}" cy="${f(cy)}" r="${f(r)}">` +
-          stops.map(([o, a]) => `<stop offset="${o.toFixed(3)}" stop-color="#fff" stop-opacity="${a.toFixed(2)}"/>`).join('') + '</radialGradient>');
-        return id;
-      },
-      clip(d) {
-        const id = prefix + 'c' + (++gid);
-        defs.push(`<clipPath id="${id}"><path d="${d}"/></clipPath>`);
-        return id;
-      },
-      path(d) {
-        const id = prefix + 'p' + (++gid);
-        defs.push(`<path id="${id}" d="${d}"/>`);
-        return id;
-      }
+      P: t => [(1 - t) * (1 - t) * p0[0] + 2 * (1 - t) * t * p1[0] + t * t * p2[0], (1 - t) * (1 - t) * p0[1] + 2 * (1 - t) * t * p1[1] + t * t * p2[1]],
+      A: t => Math.atan2(2 * (1 - t) * (p1[1] - p0[1]) + 2 * t * (p2[1] - p1[1]), 2 * (1 - t) * (p1[0] - p0[0]) + 2 * t * (p2[0] - p1[0])),
+      d: `M${pt(...p0)}Q${pt(...p1)} ${pt(...p2)}`
     };
   }
-  const base = (W, H, op = .05) => `<rect x="-16" y="-16" width="${W + 32}" height="${H + 32}" fill-opacity="${op}"/>`;
-  const wrap = (k, inner, fx) => `<defs>${k.defs.join('')}</defs><g filter="url(#${fx})">${inner}</g>`;
-  const stem = (d, op = .55, w = 2) => `<path class="st" stroke-width="${w}" stroke-opacity="${op}" d="${d}"/>`;
-  const line = (d, w, op, dash) => `<path class="fr" stroke-width="${w}" stroke-opacity="${op}"${dash ? ` stroke-dasharray="${dash}"` : ''} d="${d}"/>`;
-  const circ = (cx, cy, r) => `M${pt(cx - r, cy)}a${f(r)},${f(r)} 0 1 0 ${f(2 * r)},0a${f(r)},${f(r)} 0 1 0 ${f(-2 * r)},0Z`;
-
-  function petal(cx, cy, r0, r1, a, hw, g) {
-    const p = (r, da) => pt(...pol(cx, cy, r, a + da));
-    const rm = r0 + (r1 - r0) * .55;
-    return `<path fill="url(#${g})" d="M${p(r0, -hw * .5)}C${p(rm, -hw * 1.08)} ${p(r1 * .98, -hw * .8)} ${p(r1, -hw * .36)}Q${p(r1 * .92, 0)} ${p(r1, hw * .36)}C${p(r1 * .98, hw * .8)} ${p(rm, hw * 1.08)} ${p(r0, hw * .5)}Z"/>`;
-  }
-  function rose(k, cx, cy, r, rot = 0) {
-    const layers = [
-      [5, .22, 1, .8, .2, .58, 0],
-      [5, .17, .75, .76, .3, .7, .63],
-      [4, .11, .52, .92, .42, .82, .2],
-      [3, .05, .31, 1.08, .56, .92, 1.15]
-    ];
-    let s = '';
-    for (const [n, a0r, a1r, hw, op0, op1, off] of layers) {
-      const g = k.grad(cx, cy, r * a1r, [[a0r / a1r, op0], [.72, (op0 + op1) / 2 + .06], [1, op1]]);
-      for (let i = 0; i < n; i++) s += petal(cx, cy, r * a0r, r * a1r, rot + off + i * 2 * Math.PI / n, hw, g);
-    }
-    return s + `<circle cx="${f(cx)}" cy="${f(cy)}" r="${f(r * .085)}" fill-opacity=".95"/>`;
-  }
-  function leaf(x, y, len, ang, wid = .34, op = .5, veins = true) {
-    const c = Math.cos(ang), s = Math.sin(ang);
+  const leafD = (x, y, len, ang, wid) => {
+    const c = Math.cos(ang), s = Math.sin(ang), w = len * wid;
     const T = (u, v) => pt(x + u * c - v * s, y + u * s + v * c);
-    const w = len * wid;
-    let o = `<path fill-opacity="${op}" d="M${T(0, 0)}C${T(len * .22, -w * .95)} ${T(len * .66, -w * .82)} ${T(len, 0)}C${T(len * .66, w * .82)} ${T(len * .22, w * .95)} ${T(0, 0)}Z"/>`;
-    if (veins) {
-      let d = `M${T(len * .04, 0)}Q${T(len * .5, -w * .1)} ${T(len * .9, 0)}`;
-      for (let i = 1; i <= 3; i++) {
-        const u = len * (.1 + i * .18);
-        d += `M${T(u, 0)}Q${T(u + len * .07, -w * .2)} ${T(u + len * .14, -w * .5)}M${T(u, 0)}Q${T(u + len * .07, w * .2)} ${T(u + len * .14, w * .5)}`;
-      }
-      o += `<path class="v" stroke-width="1.1" stroke-opacity="${Math.min(1, op + .32).toFixed(2)}" d="${d}"/>`;
-    }
-    return o;
-  }
-  function bud(x, y, size, ang) {
-    const c = Math.cos(ang), s = Math.sin(ang);
-    const T = (u, v) => pt(x + u * c - v * s, y + u * s + v * c);
-    let o = leaf(x, y, size * .62, ang - .55, .3, .5, false) + leaf(x, y, size * .62, ang + .55, .3, .5, false);
-    o += `<path fill-opacity=".72" d="M${T(0, 0)}C${T(size * .08, -size * .5)} ${T(size * .78, -size * .42)} ${T(size, 0)}C${T(size * .78, size * .42)} ${T(size * .08, size * .5)} ${T(0, 0)}Z"/>`;
-    o += `<path class="v" stroke-width="1.1" stroke-opacity=".95" d="M${T(size * .22, size * .1)}Q${T(size * .6, -size * .25)} ${T(size * .96, 0)}"/>`;
-    return o;
-  }
-  // Ramo de esquina (coordenadas locales: la esquina está en 0,0)
-  function corner(k) {
-    let o = stem('M10,160C22,118 32,84 52,54M160,10C118,22 84,32 54,52', .5, 2.2);
-    o += leaf(60, 50, 72, -.14, .32, .46) + leaf(50, 60, 68, 1.71, .32, .46) + leaf(64, 64, 56, .78, .36, .5);
-    o += leaf(118, 28, 40, .42, .32, .46) + leaf(28, 118, 40, 1.15, .32, .46);
-    o += leaf(122, 24, 34, -.62, .3, .42) + leaf(24, 122, 34, 2.19, .3, .42);
-    o += bud(146, 14, 20, -.08) + bud(14, 146, 20, 1.65);
-    o += rose(k, 50, 50, 40, .3) + rose(k, 114, 25, 20, 1.3) + rose(k, 25, 114, 18, 2.6);
-    return o;
-  }
-  function sprig(k) {
-    return leaf(30, 26, 40, -.1, .32, .46) + leaf(26, 30, 40, 1.67, .32, .46) + leaf(32, 32, 30, .78, .36, .48) + rose(k, 26, 26, 15, .7);
-  }
-  const corners = (W, H, m, sc, fn) => [[m, m, 1, 1], [W - m, m, -1, 1], [m, H - m, 1, -1], [W - m, H - m, -1, -1]]
-    .map(([x, y, sx, sy]) => `<g transform="translate(${f(x)},${f(y)}) scale(${(sx * sc).toFixed(3)},${(sy * sc).toFixed(3)})">${fn()}</g>`).join('');
-  function spray(k, x, y, s = 1, flip = 1) {
-    let o = leaf(x - 8 * s, y, 34 * s, Math.PI - .28 * flip, .32, .46) + leaf(x + 8 * s, y, 34 * s, .28 * flip, .32, .46);
-    o += leaf(x - 6 * s, y, 24 * s, Math.PI + .55 * flip, .3, .42) + leaf(x + 6 * s, y, 24 * s, -.55 * flip, .3, .42);
-    return o + rose(k, x, y, 13 * s, .5);
-  }
-  // Marco con esquinas cóncavas y arco opcional arriba y abajo
-  function frameD(W, H, m, rc, ah, aw) {
-    const x0 = m, x1 = W - m, y0 = m, y1 = H - m, yt = m + ah, yb = H - m - ah, cx = W / 2, A = `A${rc},${rc} 0 0 0 `;
-    let d = `M${pt(x0, yt + rc)}${A}${pt(x0 + rc, yt)}`;
-    if (ah > 0) d += `L${pt(cx - aw, yt)}C${pt(cx - aw * .45, yt)} ${pt(cx - aw * .4, y0)} ${pt(cx, y0)}C${pt(cx + aw * .4, y0)} ${pt(cx + aw * .45, yt)} ${pt(cx + aw, yt)}`;
-    d += `L${pt(x1 - rc, yt)}${A}${pt(x1, yt + rc)}L${pt(x1, yb - rc)}${A}${pt(x1 - rc, yb)}`;
-    if (ah > 0) d += `L${pt(cx + aw, yb)}C${pt(cx + aw * .45, yb)} ${pt(cx + aw * .4, y1)} ${pt(cx, y1)}C${pt(cx - aw * .4, y1)} ${pt(cx - aw * .45, yb)} ${pt(cx - aw, yb)}`;
-    return d + `L${pt(x0 + rc, yb)}${A}${pt(x0, yb - rc)}Z`;
-  }
-  // Estampilla con bordes perforados (sección de transporte)
-  function perfRect(x, y, w, h, b) {
-    const seg = (x0, y0, x1, y1) => {
-      const len = Math.hypot(x1 - x0, y1 - y0), n = Math.max(2, Math.round(len / (b * 3.2))), ux = (x1 - x0) / len, uy = (y1 - y0) / len, sl = len / n;
-      let d = '';
-      for (let i = 0; i < n; i++) {
-        const s0 = i * sl + sl / 2 - b, s1 = i * sl + sl / 2 + b;
-        d += `L${pt(x0 + ux * s0, y0 + uy * s0)}A${b},${b} 0 0 0 ${pt(x0 + ux * s1, y0 + uy * s1)}`;
-      }
-      return d + `L${pt(x1, y1)}`;
-    };
-    return `M${pt(x, y)}` + seg(x, y, x + w, y) + seg(x + w, y, x + w, y + h) + seg(x + w, y + h, x, y + h) + seg(x, y + h, x, y) + 'Z';
-  }
-  const txt = (x, y, s, size) => `<text x="${f(x)}" y="${f(y)}" text-anchor="middle" font-family="Jost, Segoe UI, sans-serif" font-weight="500" font-size="${size}" letter-spacing="1.5" fill-opacity=".85">${s}</text>`;
-  function stamp(cx, cy, w, h, rot, motif) {
-    const o = `<path fill-opacity=".42" d="${perfRect(-w / 2, -h / 2, w, h, 2.6)}"/>` +
-      line(`M${pt(-w / 2 + 7, -h / 2 + 7)}h${f(w - 14)}v${f(h - 14)}h${f(14 - w)}Z`, 1.4, .72) + motif;
-    return `<g transform="translate(${f(cx)},${f(cy)}) rotate(${rot})">${o}</g>`;
-  }
-  function postmark(k, cx, cy, r) {
-    const id = k.path(`M${pt(cx - r + 7, cy)}A${r - 7},${r - 7} 0 0 1 ${pt(cx + r - 7, cy)}`);
-    let o = line(circ(cx, cy, r), 1.6, .72) + line(circ(cx, cy, r - 15), 1, .5);
-    o += `<text font-family="Jost, Segoe UI, sans-serif" font-weight="500" font-size="7.5" letter-spacing="1.6" fill-opacity=".85"><textPath href="#${id}" startOffset="50%" text-anchor="middle">EL TABO · CHILE</textPath></text>`;
-    o += txt(cx, cy + 3.5, '2027', 9);
-    for (let i = 0; i < 3; i++) o += line(`M${pt(cx + r + 4, cy - 9 + i * 9)}q9,-5 18,0t18,0t18,0t18,0`, 1.5, .6);
-    return o;
-  }
-  // Encaje de festones (para el bloque azul)
-  function lace(W, y, dir) {
-    const r = 11, n = Math.ceil(W / (2 * r)) + 1;
-    let x = -r, d = `M${pt(x, y - dir * 6)}L${pt(x, y)}`, dots = '';
-    for (let i = 0; i < n; i++) {
-      d += `A${r},${r} 0 0 ${dir > 0 ? 0 : 1} ${pt(x + 2 * r, y)}`;
-      dots += `<circle cx="${f(x + r)}" cy="${f(y + dir * r * .42)}" r="2.2" fill-opacity=".9"/>`;
-      x += 2 * r;
-    }
-    d += `L${pt(x, y - dir * 6)}Z`;
-    return `<path fill-opacity=".4" d="${d}"/>` + dots + line(`M0,${f(y + dir * (r + 9))}L${W},${f(y + dir * (r + 9))}`, 2.4, .7, '0 6');
-  }
-  // Cortinas recogidas a los lados del programa
-  function curtain(k, W, H) {
-    const tie = H * .6, wT = W * .17, wK = W * .045, wB = W * .1;
-    const ss = t => t * t * (3 - 2 * t);
-    const wid = y => y < tie ? wT + (wK - wT) * ss(y / tie) : wK + (wB - wK) * ss((y - tie) / (H - tie));
-    const n = 6, N = 40;
-    let soft = '';
-    for (let i = 0; i < n; i++) {
-      const A = [], B = [];
-      for (let j = 0; j <= N; j++) {
-        const y = -6 + (H + 12) * j / N, w = wid(clamp(y, 0, H));
-        const wav = Math.sin(j / N * Math.PI * 2.4 + i * 1.7) * 1.4;
-        A.push(pt(w * (i + .1) / n + wav - 3, y));
-        B.push(pt(w * (i + .9) / n + wav - 3, y));
-      }
-      soft += `<path fill-opacity="${i % 2 ? .46 : .58}" d="M${A.join('L')}L${B.reverse().join('L')}Z"/>`;
-    }
-    soft += `<path fill-opacity=".85" d="M-6,${f(tie - 7)}C${pt(wK * .5, tie - 12)} ${pt(wK + 8, tie - 8)} ${pt(wK + 14, tie - 2)}L${pt(wK + 14, tie + 5)}C${pt(wK + 6, tie + 1)} ${pt(wK * .5, tie - 1)} -6,${f(tie + 7)}Z"/>`;
-    const fine = leaf(wK + 14, tie + 2, 20, 1.25, .34, .5) + leaf(wK + 14, tie + 2, 17, .55, .34, .5) + rose(k, wK + 14, tie + 1, 10, .6);
-    return { soft, fine };
-  }
-
-  const BUILD = {
-    hero(W, H) {
-      const k = kit('h'), sc = clamp(W / 440, .7, 1.08), m = 20;
-      let o = base(W, H);
-      o += line(frameD(W, H, m, 26, 22, 62), 2.4, .6);
-      o += line(frameD(W, H, m + 7, 30, 22, 58), 2.8, .78, '0 7.4');
-      o += line(frameD(W, H, m + 14, 34, 22, 54), 1.1, .5);
-      o += corners(W, H, 6, sc, () => corner(k));
-      o += spray(k, W / 2, m + 14 + 30, sc * .9, 1) + spray(k, W / 2, H - (m + 14 + 30), sc * .9, -1);
-      return wrap(k, o, 'fx-paper');
-    },
-    programa(W, H) {
-      const k = kit('c');
-      const L = curtain(k, W, H), R = curtain(k, W, H);
-      const mirror = s => `<g transform="translate(${W},0) scale(-1,1)">${s}</g>`;
-      const swag = line(`M-10,4Q${pt(W * .25, 46)} ${pt(W * .5, 10)}Q${pt(W * .75, 46)} ${pt(W + 10, 4)}`, 12, .5) +
-        line(`M-10,0Q${pt(W * .25, 26)} ${pt(W * .5, 2)}Q${pt(W * .75, 26)} ${pt(W + 10, 0)}`, 8, .55);
-      return `<defs>${k.defs.join('')}</defs><g filter="url(#fx-paper)">${base(W, H)}</g>` +
-        `<g filter="url(#fx-soft)">${L.soft}${mirror(R.soft)}${swag}</g>` +
-        `<g filter="url(#fx-paper)">${L.fine}${mirror(R.fine)}</g>`;
-    },
-    ticket(W, H) {
-      const k = kit('t'), cx = W / 2;
-      let o = base(W, H) + line(frameD(W, H, 10, 12, 0, 0), 1.4, .5);
-      o += stamp(cx - 58, 74, 62, 76, -7, rose(k, 0, -6, 15, .4) + txt(0, 25, '2027', 10));
-      o += stamp(cx + 10, 66, 56, 68, 6, line(circ(-6, -6, 10), 2.6, .85) + line(circ(6, -6, 10), 2.6, .85) + txt(0, 22, 'F&amp;P', 10));
-      o += postmark(k, cx + 64, 104, 27);
-      return wrap(k, o, 'fx-paper');
-    },
-    regalos(W, H) {
-      const k = kit('r'), sc = clamp(W / 440, .7, 1.05), m = 18;
-      let o = base(W, H);
-      o += line(frameD(W, H, m, 22, 20, 54), 2.2, .58) + line(frameD(W, H, m + 7, 26, 20, 50), 2.6, .75, '0 7.2') + line(frameD(W, H, m + 14, 30, 20, 46), 1.1, .48);
-      o += corners(W, H, 8, sc * .95, () => sprig(k));
-      o += spray(k, W / 2, m + 14 + 28, sc * .85, 1);
-      return wrap(k, o, 'fx-paper');
-    },
-    rsvp(W, H) {
-      const k = kit('v');
-      // Sin rectángulo de base: así la foto de fondo se ve entre el encaje y el marco
-      const o = lace(W, 0, 1) + lace(W, H, -1) + line(frameD(W, H, 12, 14, 0, 0), 1.2, .45);
-      return wrap(k, o, 'fx-navy');
-    },
-    envFront(W, H) {
-      const k = kit('ef'), cx = W / 2, cy = H * .53, sc = clamp(W / 440, .7, 1.05);
-      const dL = `M-2,-2L${pt(W * .53, H * .5)}L-2,${f(H + 2)}Z`;
-      const dR = `M${f(W + 2)},-2L${pt(W * .47, H * .5)}L${f(W + 2)},${f(H + 2)}Z`;
-      const dB = `M-2,${f(H + 2)}L${pt(cx, cy)}L${f(W + 2)},${f(H + 2)}Z`;
-      const cB = k.clip(dB);
-      let o = `<path d="${dL}" fill-opacity=".14"/><path d="${dR}" fill-opacity=".14"/>`;
-      o += line(frameD(W, H, 11, 14, 0, 0), 1.4, .45);
-      o += `<path d="${dB}" fill-opacity=".27"/><g clip-path="url(#${cB})">`;
-      o += line(`M${pt(14, H + 2)}L${pt(cx, cy + 17)}L${pt(W - 14, H + 2)}`, 1.6, .55);
-      o += line(`M${pt(30, H + 2)}L${pt(cx, cy + 33)}L${pt(W - 30, H + 2)}`, 2.6, .75, '0 7');
-      o += line(frameD(W, H, 11, 14, 0, 0), 1.4, .45);
-      o += spray(k, cx, H - 46, sc * 1.3, -1) + '</g>';
-      return wrap(k, o, 'fx-env');
-    },
-    envFlap(W, Hf) {
-      const k = kit('fl'), cx = W / 2, ty = Hf * .965, sc = clamp(W / 440, .7, 1.05);
-      const d = `M-2,-2L${f(W + 2)},-2L${pt(cx, ty)}Z`;
-      const c = k.clip(d);
-      let o = `<path d="${d}" fill-opacity=".3"/><g clip-path="url(#${c})">`;
-      o += line(`M11,11L${f(W - 11)},11`, 1.4, .45);
-      o += line(`M${pt(16, -2)}L${pt(cx, ty - 20)}L${pt(W - 16, -2)}`, 1.6, .55);
-      o += line(`M${pt(34, -2)}L${pt(cx, ty - 38)}L${pt(W - 34, -2)}`, 2.6, .75, '0 7');
-      o += `<g transform="translate(6,6) scale(${sc.toFixed(3)})">${corner(k)}</g><g transform="translate(${W - 6},6) scale(${(-sc).toFixed(3)},${sc.toFixed(3)})">${corner(k)}</g>`;
-      o += spray(k, cx, ty - 112, sc * 1.1, 1) + '</g>';
-      return wrap(k, o, 'fx-env');
-    }
+    return { d: `M${T(0, 0)}C${T(len * .22, -w * .95)} ${T(len * .66, -w * .82)} ${T(len, 0)}C${T(len * .66, w * .82)} ${T(len * .22, w * .95)} ${T(0, 0)}Z`, mid: `M${T(len * .06, 0)}Q${T(len * .5, -w * .12)} ${T(len * .9, 0)}` };
   };
 
-  const SVGNS = 'http://www.w3.org/2000/svg';
-  function mount(el) {
+  /* ===== Bordes de papel rasgado (recorte irregular calculado según el tamaño) ===== */
+  function deckle(el, i) {
     const W = el.offsetWidth, H = el.offsetHeight;
     if (!W || !H || (W === +el.dataset.w && H === +el.dataset.h)) return;
     el.dataset.w = W;
     el.dataset.h = H;
-    let svg = el.querySelector(':scope > svg.relief');
-    if (!svg) {
-      svg = document.createElementNS(SVGNS, 'svg');
-      svg.setAttribute('class', 'relief');
-      svg.setAttribute('aria-hidden', 'true');
-      svg.setAttribute('focusable', 'false');
-      el.prepend(svg);
-    }
-    svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
-    svg.innerHTML = BUILD[el.dataset.relief](W, H);
-  }
-  // El relieve se calcula por píxel físico: se compensa la densidad de pantalla para que se vea igual en todos los teléfonos
-  const dpr = clamp(window.devicePixelRatio || 1, 1, 3);
-  document.querySelectorAll('.fx-defs [data-ss]').forEach(el => el.setAttribute('surfaceScale', String(+el.dataset.ss * dpr)));
-  if (!CONFIG.transporte) { $('transporte').hidden = true; $('field-bus').hidden = true; }
-  const reliefs = Array.from(document.querySelectorAll('[data-relief]'));
-  reliefs.forEach(mount);
-  if ('ResizeObserver' in window) {
-    let pending = new Set(), raf = 0;
-    const ro = new ResizeObserver(entries => {
-      entries.forEach(e => pending.add(e.target));
-      if (!raf) raf = requestAnimationFrame(() => { raf = 0; pending.forEach(mount); pending = new Set(); });
-    });
-    reliefs.forEach(el => ro.observe(el));
-  } else {
-    window.addEventListener('resize', () => reliefs.forEach(mount));
+    const edges = el.dataset.deckle || 'trbl', R = rng(97 + i * 131), amp = 2.6, step = 3;
+    const j = e => edges.includes(e) ? amp * (.35 + .65 * R()) : 0;
+    const pts = [];
+    for (let x = 0; x < W; x += step) pts.push([x, j('t')]);
+    for (let y = 0; y < H; y += step) pts.push([W - j('r'), y]);
+    for (let x = W; x > 0; x -= step) pts.push([x, H - j('b')]);
+    for (let y = H; y > 0; y -= step) pts.push([j('l'), y]);
+    el.style.clipPath = `polygon(${pts.map(([x, y]) => `${f(x)}px ${f(y)}px`).join(',')})`;
   }
 
-  /* ===== Sello de lacre ===== */
+  /* ===== Follaje dorado de las puertas ===== */
+  function goldFlower(x, y, r, rot) {
+    let o = '';
+    for (let i = 0; i < 5; i++) {
+      const a = rot + i * 2 * Math.PI / 5, [px, py] = pol(x, y, r * .55, a);
+      o += `<ellipse cx="${f(px)}" cy="${f(py)}" rx="${f(r * .55)}" ry="${f(r * .32)}" transform="rotate(${f(a * 180 / Math.PI)} ${f(px)} ${f(py)})" fill="url(#gold-soft)" stroke="#A98540" stroke-width=".5"/>`;
+    }
+    return o + `<circle cx="${f(x)}" cy="${f(y)}" r="${f(r * .26)}" fill="#B08A43"/>`;
+  }
+  function foilSVG(W, H) {
+    const s = W / 160, cx = W, cy = H / 2;
+    let o = '';
+    for (const dir of [-1, 1]) {
+      const Q = quad([cx - 30 * s, cy + dir * 10 * s], [W * .16, cy + dir * H * .04], [W * .44, cy + dir * H * .31]);
+      o += `<path d="${Q.d}" fill="none" stroke="url(#gold)" stroke-width="${f(1.6 * s)}" stroke-linecap="round"/>`;
+      for (let i = 0; i < 9; i++) {
+        const t = .08 + i * .1, [x, y] = Q.P(t), a = Q.A(t);
+        for (const side of [-1, 1]) {
+          const L = leafD(x, y, (23 - 7 * t) * s, a + side * .62, .32);
+          o += `<path d="${L.d}" fill="url(#gold)"/><path d="${L.mid}" fill="none" stroke="#8E6D30" stroke-opacity=".55" stroke-width=".6"/>`;
+        }
+        if (i === 2 || i === 6) {
+          const [fx, fy] = pol(x, y, 13 * s, a - dir * 1.4);
+          o += `<path d="M${pt(x, y)}L${pt(fx, fy)}" stroke="url(#gold)" stroke-width="${f(.9 * s)}"/>` + goldFlower(fx, fy, 7 * s, i);
+        }
+      }
+      const [ex, ey] = Q.P(1);
+      o += goldFlower(ex, ey, 6 * s, 1);
+    }
+    // ramita corta que nace del sello hacia afuera
+    o += goldFlower(cx - 46 * s, cy, 6.5 * s, .4);
+    o += `<path d="M${pt(cx - 30 * s, cy)}L${pt(cx - 40 * s, cy)}" stroke="url(#gold)" stroke-width="${f(1 * s)}"/>`;
+    return `<svg viewBox="0 0 ${W} ${H}" aria-hidden="true" focusable="false">${o}</svg>`;
+  }
+  function foil(el) {
+    const W = el.offsetWidth, H = el.offsetHeight;
+    if (!W || !H || (W === +el.dataset.fw && H === +el.dataset.fh)) return;
+    el.dataset.fw = W;
+    el.dataset.fh = H;
+    el.innerHTML = foilSVG(W, H);
+  }
+
+  /* ===== Azahar (flor de naranjo) ===== */
+  function azaharSVG() {
+    let o = '<path d="M4,14 C50,22 94,44 148,94 C168,112 184,132 198,156" fill="none" stroke="#6C6A45" stroke-width="2.4" stroke-linecap="round"/>' +
+      '<path d="M94,44 C112,30 142,22 178,22" fill="none" stroke="#6C6A45" stroke-width="1.8" stroke-linecap="round"/>';
+    const leaves = [[38, 24, 48, -.38], [70, 36, 54, .72], [116, 64, 52, -.22], [140, 86, 50, 1.08], [108, 36, 42, -.55], [158, 24, 44, .12], [174, 124, 42, 1.2], [26, 18, 36, .6]];
+    leaves.forEach(([x, y, l, a]) => { const L = leafD(x, y, l, a, .36); o += `<path d="${L.d}" fill="url(#leaf-g)"/><path d="${L.mid}" fill="none" stroke="#B7CF9C" stroke-opacity=".6" stroke-width="1"/>`; });
+    const flower = (x, y, r, rot) => {
+      let s = '';
+      for (let i = 0; i < 5; i++) {
+        const a = rot + i * 2 * Math.PI / 5;
+        const L = leafD(x, y, r, a, .52);
+        s += `<path d="${L.d}" fill="url(#petal-g)" stroke="#D3CBBA" stroke-width=".6"/>`;
+      }
+      s += `<circle cx="${f(x)}" cy="${f(y)}" r="${f(r * .24)}" fill="#E6D27E"/>`;
+      for (let i = 0; i < 9; i++) {
+        const a = rot + i * 2 * Math.PI / 9, [sx, sy] = pol(x, y, r * .48, a);
+        s += `<path d="M${pt(x, y)}L${pt(sx, sy)}" stroke="#D8C070" stroke-width=".8"/><circle cx="${f(sx)}" cy="${f(sy)}" r="1" fill="#C49A33"/>`;
+      }
+      return s;
+    };
+    const bud = (x, y, s, a) => {
+      const L = leafD(x, y, s * 2.2, a, .5);
+      const C = leafD(x, y, s * .9, a, .9);
+      return `<path d="${L.d}" fill="url(#petal-g)" stroke="#D3CBBA" stroke-width=".6"/><path d="${C.d}" fill="#5F8A4A"/>`;
+    };
+    o += flower(58, 22, 17, .3) + flower(132, 42, 15, 1.1) + flower(176, 106, 16, .7);
+    o += bud(186, 26, 7, -.25) + bud(96, 70, 6, 1.25) + bud(200, 152, 6.5, 1.0) + bud(12, 30, 6, 2.6);
+    return o;
+  }
+  document.querySelectorAll('svg[data-azahar]').forEach(el => {
+    const s = +el.dataset.azahar || 1;
+    el.setAttribute('viewBox', '-10 -14 230 186');
+    el.setAttribute('width', String(Math.round(220 * s)));
+    el.setAttribute('height', String(Math.round(176 * s)));
+    el.innerHTML = azaharSVG();
+  });
+
+  /* ===== Sello de lacre dorado con flor ===== */
+  const dpr = clamp(window.devicePixelRatio || 1, 1, 3);
+  document.querySelectorAll('.fx-defs [data-ss]').forEach(el => el.setAttribute('surfaceScale', String(+el.dataset.ss * dpr)));
+  const circ = (cx, cy, r) => `M${pt(cx - r, cy)}a${f(r)},${f(r)} 0 1 0 ${f(2 * r)},0a${f(r)},${f(r)} 0 1 0 ${f(-2 * r)},0Z`;
   function sealSVG() {
     const N = 30, pts = [];
     for (let i = 0; i < N; i++) {
@@ -1176,50 +877,68 @@ html.js .reveal.in { opacity: 1; transform: none; }
       blob += `C${pt(p1[0] + (p2[0] - p0[0]) / 6, p1[1] + (p2[1] - p0[1]) / 6)} ${pt(p2[0] - (p3[0] - p1[0]) / 6, p2[1] - (p3[1] - p1[1]) / 6)} ${pt(...p2)}`;
     }
     blob += 'Z';
+    let petals = '';
+    for (let i = 0; i < 5; i++) {
+      const a = -Math.PI / 2 + i * 2 * Math.PI / 5, [px, py] = pol(80, 80, 15, a);
+      petals += `<ellipse cx="${f(px)}" cy="${f(py)}" rx="15" ry="9.5" transform="rotate(${f(a * 180 / Math.PI)} ${f(px)} ${f(py)})" fill-opacity=".72"/>`;
+    }
     return `<svg viewBox="0 0 160 160" aria-hidden="true" focusable="false"><g filter="url(#fx-seal)">` +
       `<path fill-rule="evenodd" fill-opacity=".6" d="${blob}${circ(80, 80, 47)}"/>` +
       `<circle cx="80" cy="80" r="47" fill-opacity=".34"/>` +
       `<circle cx="80" cy="80" r="50" fill="none" stroke="#fff" stroke-opacity=".9" stroke-width="3"/>` +
-      `<circle cx="80" cy="80" r="42.5" fill="none" stroke="#fff" stroke-opacity=".8" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="0 6.67"/>` +
-      `<text x="82" y="97" text-anchor="middle" font-family="Pinyon Script, cursive" font-size="46" fill-opacity=".9">F<tspan font-family="Cormorant Garamond, serif" font-style="italic" font-size="20" dx="3" dy="-8" fill-opacity=".8">&amp;</tspan><tspan dx="2" dy="8">P</tspan></text>` +
+      petals + `<circle cx="80" cy="80" r="6.5" fill-opacity=".95"/>` +
+      `<circle cx="80" cy="80" r="11" fill="none" stroke="#fff" stroke-opacity=".9" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="0 4.3"/>` +
       `</g></svg>`;
   }
   document.querySelectorAll('[data-seal]').forEach(el => el.insertAdjacentHTML('afterbegin', sealSVG()));
 
-  /* ===== Perlas ===== */
-  const pearl = (x, y, r, t) => `<circle cx="${f(x)}" cy="${f(y)}" r="${r}" fill="url(#pearl${t})"/><circle cx="${f(x - r * .3)}" cy="${f(y - r * .34)}" r="${f(r * .28)}" fill="#fff" fill-opacity=".85"/>`;
-  function pearlOval(w, h, r) {
-    const cx = w / 2, cy = h / 2, rx = w / 2 - r - 2, ry = h / 2 - r - 2, S = 900, pts = [];
-    let L = 0, prev = null;
-    for (let i = 0; i <= S; i++) {
-      const a = i / S * 2 * Math.PI - Math.PI / 2, p = [cx + rx * Math.cos(a), cy + ry * Math.sin(a)];
-      if (prev) L += Math.hypot(p[0] - prev[0], p[1] - prev[1]);
-      pts.push([p, L]);
-      prev = p;
-    }
-    const n = Math.floor(L / (2 * r * 1.06)), step = L / n;
-    let o = '', j = 0;
-    for (let i = 0; i < n; i++) {
-      while (j < pts.length - 1 && pts[j][1] < i * step) j++;
-      o += pearl(pts[j][0][0], pts[j][0][1], r, i % 3);
-    }
-    return `<svg class="pearls" viewBox="0 0 ${w} ${h}" aria-hidden="true" focusable="false">${o}</svg>`;
+  /* ===== Bordes y follaje: se recalculan si cambia el tamaño ===== */
+  const deckles = Array.from(document.querySelectorAll('.deckle'));
+  const foils = Array.from(document.querySelectorAll('[data-foil]'));
+  if (!CONFIG.transporte) { $('transporte').hidden = true; $('field-bus').hidden = true; }
+  function layoutAll(list) {
+    list.forEach(el => {
+      const i = deckles.indexOf(el);
+      if (i >= 0) deckle(el, i);
+      if (el.hasAttribute('data-foil')) foil(el);
+    });
   }
-  function pearlRow() {
-    const sizes = [2, 2.6, 3.2, 4, 4.8, 4, 3.2, 2.6, 2];
-    let x = 2, o = '';
-    sizes.forEach((r, i) => { x += r; o += pearl(x, 7, r, i % 3); x += r + 2.4; });
-    return `<svg viewBox="0 0 ${f(x)} 14" width="${f(x)}" height="14" aria-hidden="true" focusable="false">${o}</svg>`;
+  layoutAll([...deckles, ...foils]);
+  if ('ResizeObserver' in window) {
+    let pending = new Set(), raf = 0;
+    const ro = new ResizeObserver(entries => {
+      entries.forEach(e => pending.add(e.target));
+      if (!raf) raf = requestAnimationFrame(() => { raf = 0; layoutAll([...pending]); pending = new Set(); });
+    });
+    [...deckles, ...foils].forEach(el => ro.observe(el));
+  } else {
+    window.addEventListener('resize', () => layoutAll([...deckles, ...foils]));
   }
-  $('oval').insertAdjacentHTML('afterbegin', pearlOval(224, 296, 6));
-  document.querySelectorAll('[data-pearls]').forEach(el => { el.innerHTML = pearlRow(); });
-  if (CONFIG.foto) {
-    const img = new Image();
-    img.alt = `${CONFIG.novio} y ${CONFIG.novia}`;
-    img.onload = () => { const box = $('oval-in'); box.innerHTML = ''; box.appendChild(img); };
-    img.src = CONFIG.foto;
-  }
-  document.querySelectorAll('.hero-in > *').forEach((el, i) => el.style.setProperty('--i', i));
+
+  /* ===== Foto de portada ===== */
+  if (CONFIG.foto) $('arch-img').src = CONFIG.foto;
+  else $('arch').hidden = true;
+
+  /* ===== Calendario del mes ===== */
+  const fecha = new Date(CONFIG.fecha);
+  const MESES = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+  const DIAS = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
+  (() => {
+    const parts = new Intl.DateTimeFormat('en-CA', { timeZone: CONFIG.zonaHoraria, year: 'numeric', month: 'numeric', day: 'numeric' }).formatToParts(fecha);
+    const get = t => +parts.find(p => p.type === t).value;
+    const y = get('year'), m = get('month') - 1, d = get('day');
+    const first = new Date(Date.UTC(y, m, 1)).getUTCDay(), days = new Date(Date.UTC(y, m + 1, 0)).getUTCDate();
+    const lead = (first + 6) % 7;
+    let g = ['L', 'M', 'M', 'J', 'V', 'S', 'D'].map(w => `<span class="wd">${w}</span>`).join('');
+    for (let i = 0; i < lead; i++) g += '<span class="d"></span>';
+    for (let i = 1; i <= days; i++) g += `<span class="d${i === d ? ' mark' : ''}">${i}</span>`;
+    const dow = DIAS[new Date(Date.UTC(y, m, d)).getUTCDay()];
+    $('calendar').innerHTML = `<div class="cal-head"><span class="cal-month">${MESES[m]}</span><span class="cal-year">${y}</span></div>` +
+      `<div class="cal-grid">${g}</div><p class="cal-foot">${dow} · ${CONFIG.lugar.hora} hrs</p>`;
+    $('big-num').textContent = d;
+    $('big-month').textContent = MESES[m];
+    $('big-year').textContent = y;
+  })();
 
   /* ===== Mapas, lista de novios y calendario ===== */
   const enc = encodeURIComponent;
@@ -1238,7 +957,7 @@ html.js .reveal.in { opacity: 1; transform: none; }
   $('phone-owner').textContent = CONFIG.respondeA;
 
   /* ===== Cuenta regresiva ===== */
-  const target = new Date(CONFIG.fecha).getTime();
+  const target = fecha.getTime();
   const pad = n => String(n).padStart(2, '0');
   let cdTimer = null;
   function tickCountdown() {
@@ -1264,7 +983,7 @@ html.js .reveal.in { opacity: 1; transform: none; }
   if ('IntersectionObserver' in window && !reduce) {
     const io = new IntersectionObserver(entries => entries.forEach(e => {
       if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
-    }), { rootMargin: '0px 0px -12% 0px' });
+    }), { rootMargin: '0px 0px -10% 0px' });
     revealEls.forEach(el => io.observe(el));
   } else {
     revealEls.forEach(el => el.classList.add('in'));
@@ -1286,8 +1005,8 @@ html.js .reveal.in { opacity: 1; transform: none; }
     guest = readGuest();
     const plural = !!(guest && guest.plural);
     document.querySelectorAll('[data-s]').forEach(el => { el.textContent = plural ? el.dataset.p : el.dataset.s; });
-    $('env-label').hidden = !guest;
-    $('env-to').textContent = guest ? guest.nombre : 'Para ti';
+    $('env-label').textContent = guest ? 'Una invitación para' : 'Una invitación';
+    $('env-to').textContent = guest ? guest.nombre : 'para ti';
     $('greet').hidden = !guest;
     $('greet').textContent = guest ? guest.saludo : '';
 
@@ -1374,7 +1093,7 @@ html.js .reveal.in { opacity: 1; transform: none; }
     }
   });
 
-  /* ===== Música: MP3 si existe; si no, caja musical generada en el navegador ===== */
+  /* ===== Música: MP3 si existe (desde CONFIG.musicaInicio); si no, caja musical generada ===== */
   const MusicBox = (() => {
     let ctx = null, master = null, wet = null, step = 0, next = 0, on = false;
     const BPM = 70, E = 60 / BPM / 2, UP = 2;
@@ -1457,7 +1176,12 @@ html.js .reveal.in { opacity: 1; transform: none; }
     return {
       start() {
         try { if (navigator.audioSession) navigator.audioSession.type = 'playback'; } catch (e) { /* sin soporte */ }
-        if (!audio) { audio = new Audio(CONFIG.musica); audio.loop = true; audio.volume = .7; }
+        if (!audio) {
+          audio = new Audio(CONFIG.musica);
+          audio.loop = true;
+          audio.volume = .7;
+          if (CONFIG.musicaInicio) audio.currentTime = CONFIG.musicaInicio;
+        }
         on = true;
         const p = audio.play();
         if (p && p.catch) p.catch(() => {});
@@ -1480,7 +1204,7 @@ html.js .reveal.in { opacity: 1; transform: none; }
   });
   document.addEventListener('visibilitychange', () => Music.visibility(document.hidden));
 
-  /* ===== Apertura: sello, solapa, sobre y cinta ===== */
+  /* ===== Apertura: el sello se levanta y las puertas se abren ===== */
   const timers = [];
   const later = (ms, fn) => timers.push(setTimeout(fn, ms));
   let opened = false;
@@ -1490,10 +1214,9 @@ html.js .reveal.in { opacity: 1; transform: none; }
   }
   function finish() {
     intro.classList.add('gone');
-    hero.classList.add('risen', 'untie', 'revealed');
+    hero.classList.add('revealed');
     root.classList.remove('intro-on');
     lock(false);
-    intro.hidden = true;
   }
   function openInvite() {
     if (opened) return;
@@ -1503,24 +1226,22 @@ html.js .reveal.in { opacity: 1; transform: none; }
       setMusicBtn(musicBtn.getAttribute('aria-pressed') !== 'false');
     }
     if (reduce) { finish(); return; }
-    env.classList.add('opening');
-    later(320, () => env.classList.add('flap-open'));
-    later(1050, () => { intro.classList.add('parting'); hero.classList.add('risen'); });
-    later(2450, () => hero.classList.add('untie', 'revealed'));
-    later(3500, finish);
+    intro.classList.add('opening');
+    later(150, () => gate.classList.add('open'));
+    later(1450, () => { hero.classList.add('revealed'); intro.classList.add('gone'); });
+    later(2350, finish);
   }
   function resetIntro() {
     timers.splice(0).forEach(clearTimeout);
     opened = false;
-    intro.hidden = false;
-    intro.classList.remove('gone', 'parting');
-    env.classList.remove('opening', 'flap-open');
-    hero.classList.remove('risen', 'untie', 'revealed');
+    intro.classList.remove('gone', 'opening');
+    gate.classList.remove('open');
+    hero.classList.remove('revealed');
     root.classList.add('intro-on');
     lock(true);
     window.scrollTo(0, 0);
   }
-  env.addEventListener('click', openInvite);
+  gate.addEventListener('click', openInvite);
   window.addEventListener('hashchange', () => {
     if (location.hash === '#confirmar') return;
     applyGuest();
