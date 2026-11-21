@@ -4,14 +4,15 @@ PRODID:-//Francisco y Paola//Invitacion//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:matrimonio-francisco-paola-20270320@invitacion
-DTSTAMP:20261119T120000Z
-DTSTART:20270320T200000Z
-DTEND:20270321T070000Z
+UID:matrimonio-francisco-paola@rdalbadie-bit.github.io
+DTSTAMP:20261120T120000Z
+DTSTART:20270306T200000Z
+DTEND:20270307T070000Z
 SUMMARY:Matrimonio de Francisco y Paola
-LOCATION:Parroquia Ejemplo\, Av. Ejemplo 1234\, Las Condes
-DESCRIPTION:Ceremonia a las 17:00 en Parroquia Ejemplo. Celebración a las
-  19:00 en Casona Ejemplo\, Camino Ejemplo 567\, Pirque.
+LOCATION:Fundo Las Pataguas\, S/N\, El Tabo
+DESCRIPTION:Ceremonia a las 17:00 y celebración en Fundo Las Pataguas\, El
+  Tabo.\nInvitación: https://rdalbadie-bit.github.io/francisco-paola/
+URL:https://rdalbadie-bit.github.io/francisco-paola/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Mañana es el matrimonio de Francisco y Paola
