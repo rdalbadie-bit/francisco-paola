@@ -253,26 +253,7 @@ html.intro-on .hero-sheet { opacity: 0; transform: translateY(18px) scale(.97); 
 }
 .big-month { margin-top: -.15em; font-family: var(--font-script); font-size: clamp(2.6rem, 12vw, 3.2rem); line-height: 1.2; color: var(--blue); padding: 0 .2em; }
 .big-year { font-family: var(--font-label); font-size: .78rem; letter-spacing: .4em; color: var(--ink-soft); }
-.cal-sheet { max-width: 330px; margin: 14px 0 8px; }
-.cal { display: grid; gap: 10px; padding: 34px 26px 28px; }
-.cal-head { display: flex; align-items: baseline; justify-content: space-between; padding: 0 4px; }
-.cal-month { font-family: var(--font-script); font-size: 2.2rem; line-height: 1; color: var(--blue); }
-.cal-year { font-size: 1.1rem; color: var(--ink); font-variant-numeric: lining-nums; }
-.cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); row-gap: 6px; }
-.cal-grid .wd { font-family: var(--font-label); font-size: .6rem; letter-spacing: .1em; color: var(--ink-soft); padding-bottom: 4px; }
-.cal-grid .d { display: flex; align-items: center; justify-content: center; height: 34px; font-size: 1.08rem; font-variant-numeric: lining-nums tabular-nums; }
-.cal-grid .mark {
-  position: relative;
-  width: 36px;
-  margin: 0 auto;
-  border-radius: 50%;
-  color: #4A3410;
-  font-weight: 600;
-  background: radial-gradient(circle at 36% 30%, #F4E2AE, #D2AE63 52%, #A8853F 100%);
-  box-shadow: 0 2px 3px rgba(90, 64, 20, .35), inset 0 0 0 2px rgba(255, 240, 200, .5), inset 0 0 0 4px rgba(150, 115, 50, .35);
-}
-.cal-foot { font-style: italic; font-size: 1.12rem; color: var(--ink); }
-.count-lead { font-style: italic; font-size: 1.15rem; color: var(--ink-soft); margin-top: 8px; }
+.count-lead { font-style: italic; font-size: 1.15rem; color: var(--ink-soft); margin-top: 18px; }
 .count-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; width: 100%; max-width: 340px; }
 .tag {
   display: flex;
@@ -546,9 +527,6 @@ html.js .reveal.in { opacity: 1; transform: none; }
         <span class="big-year" id="big-year">2027</span>
       </div>
       <h2 class="h2" id="h-fecha"><span>Un día para</span><em>celebrar juntos</em></h2>
-      <div class="sheet cal-sheet">
-        <div class="deckle frame-line cal" id="calendar" role="img" aria-label="Calendario: sábado 6 de marzo de 2027"></div>
-      </div>
       <p class="count-lead" id="cd-label">Faltan</p>
       <div class="count-grid" id="cd-grid">
         <div class="tag"><span id="cd-d">0</span><small>días</small></div>
@@ -919,25 +897,15 @@ html.js .reveal.in { opacity: 1; transform: none; }
   if (CONFIG.foto) $('arch-img').src = CONFIG.foto;
   else $('arch').hidden = true;
 
-  /* ===== Calendario del mes ===== */
+  /* ===== Fecha grande (sale de CONFIG.fecha) ===== */
   const fecha = new Date(CONFIG.fecha);
   const MESES = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
-  const DIAS = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
   (() => {
     const parts = new Intl.DateTimeFormat('en-CA', { timeZone: CONFIG.zonaHoraria, year: 'numeric', month: 'numeric', day: 'numeric' }).formatToParts(fecha);
     const get = t => +parts.find(p => p.type === t).value;
-    const y = get('year'), m = get('month') - 1, d = get('day');
-    const first = new Date(Date.UTC(y, m, 1)).getUTCDay(), days = new Date(Date.UTC(y, m + 1, 0)).getUTCDate();
-    const lead = (first + 6) % 7;
-    let g = ['L', 'M', 'M', 'J', 'V', 'S', 'D'].map(w => `<span class="wd">${w}</span>`).join('');
-    for (let i = 0; i < lead; i++) g += '<span class="d"></span>';
-    for (let i = 1; i <= days; i++) g += `<span class="d${i === d ? ' mark' : ''}">${i}</span>`;
-    const dow = DIAS[new Date(Date.UTC(y, m, d)).getUTCDay()];
-    $('calendar').innerHTML = `<div class="cal-head"><span class="cal-month">${MESES[m]}</span><span class="cal-year">${y}</span></div>` +
-      `<div class="cal-grid">${g}</div><p class="cal-foot">${dow} · ${CONFIG.lugar.hora} hrs</p>`;
-    $('big-num').textContent = d;
-    $('big-month').textContent = MESES[m];
-    $('big-year').textContent = y;
+    $('big-num').textContent = get('day');
+    $('big-month').textContent = MESES[get('month') - 1];
+    $('big-year').textContent = get('year');
   })();
 
   /* ===== Mapas, lista de novios y calendario ===== */
